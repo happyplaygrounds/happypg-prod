@@ -1,0 +1,241 @@
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.top_body_div {
+   /* background-image: url("https://happypg-staging.s3.amazonaws.com/homepage/top-body-bg.png"); */
+   background-color: Gainsboro;
+   object-fit: cover;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   }
+
+$marketing-site-three-up-width: 900px;
+
+.marketing-site-three-up {
+  text-align: center;
+  padding: 2rem 0;
+
+  .row {
+    max-width: $marketing-site-three-up-width;
+  }
+
+  .columns {
+    margin-bottom: 1rem;
+
+    @media screen and (min-width: 40em) {
+      margin-bottom: 0;
+    }
+  }
+
+  .fa {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: blue;
+  }
+}
+
+.marketing-site-three-up-headline {
+  margin-bottom: 2rem;
+  font-size: 24px;
+}
+
+
+/* marketing site content zurb */
+
+.marketing-site-content-section {
+  display: flex;
+  flex-wrap: wrap;
+
+  .button.round {
+    border-radius: 5000px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  .marketing-site-content-section-img {
+    align-self: center;
+    flex: 1 0 100%;
+
+    img {
+      width: 100%;
+    }
+
+    @media screen and (min-width: 40em) {
+      flex: 1 0 50%;
+    }
+  }
+
+  .marketing-site-content-section-block {
+    padding: 1rem;
+    flex: 1 0 100%;
+    align-self: stretch;
+    background: #D3D3D3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    @media screen and (min-width: 40em) {
+      flex: 1 0 50%;
+      padding: 2rem;
+    }
+  }
+}
+
+.marketing-site-content-section-block-header {
+  font-size: 24px;
+}
+
+.marketing-site-content-section-block-subheader {
+  font-size: 17px;
+}
+
+
+.mfgImage {
+        height: 80px;
+}
+
+hr.hrClass {
+  /* background-color: purple; */
+  max-width: 100%;
+  margin: 0;
+  width: 120%;
+  height: 20px;
+}
+
+.mfg-image {
+    width:  475px;
+    height: 575px;
+    object-fit: cover;
+ }
+
+ /* Simple Content Filter */
+
+
+.filter-simple {
+  .button-group {
+     justify-content: center; // center the button group
+  }
+
+  .filter-simple-button.hollow {
+    &.is-active,
+    &:focus,
+    &:active {
+      background-color: blue;
+      color: white;
+    }
+  }
+}
+
+// optional styles to round the button group edges
+.button-group.round {
+  :first-child {
+    border-radius: 5000px 0 0 5000px;
+  }
+
+  :last-child {
+    border-radius: 0 5000px 5000px 0;
+  }
+}
+
+// class that spaces blocks vertically - will be built into Foundation 6.4
+.gallery-item {
+    width:  350px;
+    height: 350px;
+    margin-bottom: 75;
+    object-fit: cover;
+}
+
+
+.featured-image-block-title {
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1em;
+    color: #404040;
+  }
+// w3c filter
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 150px 0px 0px 0px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  background-color: #666;
+   color: white;
+}
