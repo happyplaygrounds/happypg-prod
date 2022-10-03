@@ -69,18 +69,18 @@ $marketing-site-footer-bottom-bg: #828282;
 .marketing-site-footer {
   background: #7382A3;
   color: lighten(#7382A3, 40%);
-  padding: 1rem 0 0;
+  padding: 2rem 0 0;
 
   .marketing-site-footer-menu-social a {
     color: #FFFFFF;
   }
 
   .column-block {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
 
   > .col {
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
   }
 
   @include media-breakpoint-only(sm) {
@@ -204,3 +204,134 @@ $marketing-site-footer-bottom-bg: #828282;
 .fa-lg {
 	vertical-align: -45% !important;
 }
+
+//  MARKETING SITE 3-UP FEATURE SECTION
+
+
+$marketing-site-three-up-width: 900px;
+
+.marketing-site-three-up {
+  text-align: center;
+  padding: 2rem 0;
+
+  .row {
+    max-width: $marketing-site-three-up-width;
+  }
+
+  .columns {
+    margin-bottom: 1rem;
+
+    @media screen and (min-width: 40em) {
+      margin-bottom: 0;
+    }
+  }
+
+  .fa {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.marketing-site-three-up-headline {
+  margin-bottom: 2rem;
+  font-size: 24px;
+}
+
+.marketing-content-image {
+    width:  275px;
+    height: 275px;
+    object-fit: cover;
+ }
+
+//  MARKETING SITE CONTENT SECTION
+
+ .marketing-site-content-section {
+  display: flex;
+  flex-wrap: wrap;
+
+  .button.round {
+    border-radius: 5000px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  .marketing-site-content-section-img {
+    align-self: center;
+    flex: 1 0 100%;
+
+    img {
+      width: 100%;
+    }
+
+    @media screen and (min-width: 40em) {
+      flex: 1 0 50%;
+    }
+  }
+
+  .marketing-site-content-section-block {
+    padding: 1rem;
+    flex: 1 0 100%;
+    align-self: stretch;
+    background: #ECECEC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    @media screen and (min-width: 40em) {
+      flex: 1 0 50%;
+      padding: 2rem;
+    }
+  }
+}
+
+.marketing-site-content-section-block-header {
+  font-size: 24px;
+}
+
+.marketing-site-content-section-block-subheader {
+  font-size: 13px;
+}
+
+
+//  Simple Content Filter
+
+.filter-simple {
+  .button-group {
+     justify-content: center; // center the button group
+  }
+
+  .filter-simple-button.btn-outline-secondary {
+    &.is-active,
+    &:focus,
+    &:active {
+      background-color: #ECECEC;
+      color: $white;
+    }
+  }
+}
+
+// optional styles to round the button group edges
+.button-group.round {
+  :first-child {
+    border-radius: 5000px 0 0 5000px;
+  }
+
+  :last-child {
+    border-radius: 0 5000px 5000px 0;
+  }
+}
+
+// class that spaces blocks vertically - will be built into Foundation 6.4
+.column-block {
+  margin-bottom: 30px;
+}
+
+
+.gallery-item {
+    width:  350px;
+    height: 350px;
+    margin-bottom: 50px;
+    object-fit: cover;
+}
+

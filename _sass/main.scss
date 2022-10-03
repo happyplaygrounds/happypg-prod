@@ -175,10 +175,10 @@ body {
 }
 
 /* Center website */
-.main {
+/*.main {
   max-width: 1000px;
   margin: auto;
-}
+}*/
 
 h1 {
   font-size: 50px;
@@ -238,4 +238,12 @@ h1 {
 .btn.active {
   background-color: #666;
    color: white;
+}
+
+.layout--posts div[role=main] {
+	margin: 0px 150px 0px 350px !important;
+}
+
+.page__hero--overlay {
+	height: 500px;
 }

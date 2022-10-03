@@ -2,20 +2,21 @@
 main:
   - title: "About Us"
     #url: /about/
-    url: /_pages/about.html
+    url: /about/
   - title: "Our Products"
     #url: https://mmistakes.github.io/minimal-mistakes/about/
-    url: /_pages/our-products.html
+    url: /our-products/
   - title: "Our Services"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    #url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: /our-services/
   - title: "Gallery"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+    #url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: /gallery/
   - title: "Blog"
-    url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "Shop"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    #url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: /blog/
   - title: "Contact Us"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: /contact/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
