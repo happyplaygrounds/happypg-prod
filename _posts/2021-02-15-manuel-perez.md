@@ -14,8 +14,8 @@ header:
     image: /assets/images/manuel-perez1.jpg            # Twitter (use 'overlay_image')
     overlay_image: /assets/images/manuel-perez1.jpg    # Article header at 2048x768
     overlay_filter: 0.15
-    teaser: /assets/images/2022/09/25/IMAUG-Header-Twitter.jpg   # Shrink image to 575x216
-    caption: "Happy Playgrounds credit: [**Justin Rummel**](https://www.justinrummel.com)"
+    teaser: /assets/images/2021/02/15/manuel-perez-teaser.jpg   # Shrink image to 575x216
+    caption: "Happy Playgrounds, LLC"
 ---
 
 I’m sitting in my office with the fireplace going, looking out my window as snow gently falls. It is a beautiful but cold Sunday afternoon, and the perfect day to quietly reflect on matters.

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Deer Creek"
-date: 2021-09-23T14:16:11-04:00
+date: 2020-09-23T14:16:11-04:00
 modified:
 description: "Deer Creek, Edmond - An another awesome playground"     # For Twitter, not the Title
 categories:
@@ -15,8 +15,8 @@ header:
     image: /assets/images/deer-creek1.jpeg            # Twitter (use 'overlay_image')
     overlay_image: /assets/images/deer-creek1.jpeg    # Article header at 2048x768
     overlay_filter: 0.15
-    teaser: /assets/images/2022/09/25/IMAUG-Header-Twitter.jpg   # Shrink image to 575x216
-    caption: "Happy Playgrounds credit: [**Justin Rummel**](https://www.justinrummel.com)"
+    teaser: /assets/images/2020/09/23/deer-creek-teaser.jpg   # Shrink image to 575x216
+    caption: "Happy Playgrounds, LLC"
 ---
 
 Deer Creek Elementary 4th and 5th Grade Center

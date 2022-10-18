@@ -1,19 +1,18 @@
 ---
 layout: single
 title: "Happy Birthday America!"
-date: 2021-09-23T14:16:11-04:00
+date: 2020-07-05T14:16:11-04:00
 modified:
-description: "Deer Creek, Edmond - An another awesome playground"     # For Twitter, not the Title
+description: "Happy Birthday"     # For Twitter, not the Title
 categories:
-    - "School"
 tags:
     - Playground
 header:
     image: /assets/images/jude-beck-2020.jpeg            # Twitter (use 'overlay_image')
     overlay_image: /assets/images/jude-beck-2020.jpeg    # Article header at 2048x768
     overlay_filter: 0.15
-    teaser: /assets/images/2022/09/25/IMAUG-Header-Twitter.jpg   # Shrink image to 575x216
-    caption: "Happy Playgrounds credit: [**Justin Rummel**](https://www.justinrummel.com)"
+    teaser: /assets/images/2020/07/05/happy-bday-teaser.jpg   # Shrink image to 575x216
+    caption: "Happy Playgrounds, LLC"
 ---
 
 It is hard to believe that we are half way through 2020. As I look back over the first six months of this year, my heart is filled with a variety of emotions. The COVID pandemic has claimed the lives of too many, destroyed the livelihood of business owners, stolen joy from our children, and worsened the emotional outlook for our elderly population.

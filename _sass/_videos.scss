@@ -68,6 +68,8 @@ $marketing-site-footer-bottom-bg: #828282;
 
 .marketing-site-footer {
   background: #7382A3;
+  height: 400px;
+  font-weight: normal;
   color: lighten(#7382A3, 40%);
   padding: 2rem 0 0;
 
@@ -127,11 +129,12 @@ $marketing-site-footer-bottom-bg: #828282;
 
 .marketing-site-footer-bottom {
   background: darken(#828282, 20%);
-  color: white;
+  color: #FeFeFe;
+  height: 150px;
   padding: 1rem 0;
 
     a {
-      color: white;
+      color: #FeFeFe;
     }
 
     menu ul li a {
@@ -208,13 +211,14 @@ $marketing-site-footer-bottom-bg: #828282;
 //  MARKETING SITE 3-UP FEATURE SECTION
 
 
-$marketing-site-three-up-width: 900px;
+$marketing-site-three-up-width: 1200px;
 
 .marketing-site-three-up {
   text-align: center;
   padding: 2rem 0;
 
   .row {
+    width: 1200px;
     max-width: $marketing-site-three-up-width;
   }
 

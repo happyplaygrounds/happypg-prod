@@ -1,0 +1,95 @@
+---
+title: Playground Equipment
+layout: home
+permalink: /our-products/playground-equipment
+---
+
+<div class="container-fluid top_body_div">
+ <div class="row">
+	 <div class="d-flex align-items-center justify-content-center col-md-12">
+                 <img  src="https://happypg-staging.s3.amazonaws.com/icons/playground.svg" width="75px" height="75px" alt="Space" />
+		 <span><h4 style="color: #00AEEF;">Playground Equipment</h4></span>
+         </div>
+</div>
+</div>
+
+
+<div class="container">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item"><a href="/our-products">Our Products</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Playground Equipment</li>
+  </ol>
+</nav>
+
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-8">
+       <h4 class="text-center">PLAY EQUIPMENT FOR EVERYONE</h4>
+     <blockquote>
+  "We are proud to partner with Playworld to offer high quality, innovative playground equipment for all age groups and abilities. Our playground equipment is built to last with unparalleled craftsmanship and premium materials."
+  <cite>Kelli Collins</cite>
+    </blockquote>
+
+    <h4>Custom and Theme Designs</h4>
+<p>Don't see what you're looking for? Happy Playgrounds will design and create your own unique play space that is perfect for you. Our experienced team uses an individualized design approach to meet your goals and ideas. We understand that not every project, plan, and need is the same. That is why we provide options to custom design your own recreation area so it meets the specific needs you have, all within your budget. Happy Playgrounds project consultants will assist you in planning and designing a playground that lets you bring your vision to life. To us, each project is as unique as the customers we work with.<br /><br />Our customized services include the following:</p>
+
+<ul><li>Pre-Construction Services</li>
+<li>Design Build</li>
+<li>Project Management</li>
+<li>Follow Up and Maintenance</li>
+</ul>
+
+<h4>Inclusive Play</h4>
+<p>Are you interested in a playground that is genuinely inclusive for all people? One of our principles at Happy Playgrounds is designing a playground that truly everyone can engage in and that brings together people from every stretch of the community. Recreational areas need to be enjoyed by individuals with and without challenges to foster opportunities for engagement with one another. We have a framework that will promote that type of play. Our certified Inclusive Play Design Specialists are focused on bringing the ability to enjoy and share in the holistic benefits of play to everyone! Inclusion is more than access—it’s about being and feeling a part of something. It’s about making a difference in the lives of others. It's about happiness for all.</p>
+</div>
+
+<div class="col-4">          
+  <h5 style="color:red;"><strong>OUR PURPOSE</strong> and <strong>VISION</strong>                                                                   
+  </h5>
+         <br />
+        <p><em>Leaders who serve and influence our community need a trusted partner who believes in their mission and can co-create venues to achieve it. It’s why we exist. Our vision is to be known as the outdoor recreation leader that advocates for the foundation of a happier, healthier community. We want to provide our communities with a place to play in venues we’ve helped build.</em>
+        </p>
+
+       <br />
+
+  <h5 style="color:red;"><strong>CORE VALUES</strong>
+  </h5>
+
+  <p><em>Honesty - Integrity - Work Ethic - Respect - Accountability</em>
+  </p>
+  </div>
+
+</div>
+
+
+
+
+
+<div class="container">
+<div class="row main-links grid-margin-x">
+    <div class="cell small-12 medium-4">
+      <div class="title-box">
+         <a href="playground-equipment/two-to-five"><h4 class="title-box-title">Ages 2-5</h4>
+</a>
+      </div>
+      <img src="http://images.happyplaygrounds.com/playground-equipment/playground1" />
+    </div>
+    <div class="cell small-12 medium-4">
+      <div class="title-box">
+        <a href="playground-equipment/five-to-twelve"><h4 class="title-box-title">Ages 5-12</h4>
+</a>
+      </div>
+      <img src="http://images.happyplaygrounds.com/playground-equipment/playground2" />
+    </div>
+    <div class="cell small-12 medium-4">
+      <div class="title-box">
+        <h4>Electronic Play</h4>
+      </div>
+      <img src="http://images.happyplaygrounds.com/playground-equipment/playground3" />
+    </div>
+  </div>
+</div>

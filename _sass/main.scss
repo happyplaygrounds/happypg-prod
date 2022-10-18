@@ -10,40 +10,11 @@
 .top_body_div {
    /* background-image: url("https://happypg-staging.s3.amazonaws.com/homepage/top-body-bg.png"); */
    background-color: Gainsboro;
+   width: 100%;
    object-fit: cover;
    margin: 0px 0px 0px 0px;
    padding: 0px 0px 0px 0px;
    }
-
-$marketing-site-three-up-width: 900px;
-
-.marketing-site-three-up {
-  text-align: center;
-  padding: 2rem 0;
-
-  .row {
-    max-width: $marketing-site-three-up-width;
-  }
-
-  .columns {
-    margin-bottom: 1rem;
-
-    @media screen and (min-width: 40em) {
-      margin-bottom: 0;
-    }
-  }
-
-  .fa {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-    color: blue;
-  }
-}
-
-.marketing-site-three-up-headline {
-  margin-bottom: 2rem;
-  font-size: 24px;
-}
 
 
 /* marketing site content zurb */
@@ -247,3 +218,236 @@ h1 {
 .page__hero--overlay {
 	height: 500px;
 }
+
+.carousel {
+	 margin: auto;
+  width: 100%;
+  padding: 10px;
+  height: 650px;
+}
+
+.orbit-image {
+    width: 100%;
+    @media screen and (min-width: 64em) { height: 600px; object-fit: cover; }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) { height: 450; object-fit: cover;}
+    @media screen and (max-width: 39.9375em) { height: 300px; object-fit: cover; }
+  }
+
+
+  /* home page */
+
+  /* Div banner 1 */
+.home_products_div {
+   height: 250px;
+   background-image: url("https://d1wfqjcm45bc90.cloudfront.net/our-products.jpg");
+   object-fit: cover;
+   font-family: 'Quicksand', sans-serif;
+   margin: 50px 0px 50px 0px;
+   padding: 0px 0px 0px 0px;
+   }
+
+  /* Div banner 2 */
+.home_services_div {
+   height: 250px;
+   background-image: url("https://d1wfqjcm45bc90.cloudfront.net/our-services.jpg");
+   object-fit: cover;
+   margin: 50px 0px 50px 0px;
+   padding: 0px 0px 0px 0px;
+   }
+
+  /* Div banner 3 */
+.home_flipcard_div {
+   height: 250px;
+   background-image: url("https://d1wfqjcm45bc90.cloudfront.net/above-flipcard.jpg");
+   object-fit: cover;
+   margin: 50px 0px 50px 0px;
+   padding: 0px 0px 0px 0px;
+   }
+
+  /* Div banner 3 */
+.home_photos_div {
+   height: 250px;
+   background-image: url("https://d1wfqjcm45bc90.cloudfront.net/photos.jpg");
+   object-fit: cover;
+   margin: 50px 0px 50px 0px;
+   padding: 0px 0px 0px 0px;
+   }
+
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+
+/* Reseting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    transform-style: preserve-3d;
+}
+
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.container .box .body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease;
+}
+
+
+
+.container .box .body .imgContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.container .box .body .imgContainer img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .box .body .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+}
+
+.container .box:hover .body{
+    transform: rotateY(180deg);
+}
+
+.container .box .body .content div{
+    transform-style: preserve-3d;
+    padding: 20px;
+    background: linear-gradient(45deg, #FE0061,#FFEB3B);
+    transform: translateZ(100px);
+}
+
+.container .box .body .content div h3{
+    letter-spacing: 1px;
+}
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.caption-1 figcaption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.caption-2 figcaption {
+  width: 80%;
+  position: absolute;
+  bottom: 1rem;
+  left: 10%;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.caption-3 figcaption {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+
+.border-md {
+  border-width: 2px !important;
+}
+
+.separator {
+  border-bottom: 1px dashed #aaa;
+}
+
+.text-small {
+  font-size: 0.85rem;
+}
+
+.img-fit {
+	width: 773px;
+        height: 404px;
+        object-fit: cover;
+}
+
+/*
+*
+* ==========================================
+*   Top div background
+* ==========================================
+*
+*/
+
+
+section {padding:2rem;}
+.bg-primary {background-color:#007aeb;color:#fff;}
+.bg-gray {
+	background-color: #dcdcdc;
+	width: 100%;
+	padding: 10px 10px 10px 10px;
+}
+
+
+/*
+*
+* ==========================================
+*   Social Nav
+* ==========================================
+*
+*/
+.social-li           { display:inline; float:left }
+
+#one, #two, #three { list-style:none; display:inline}
+#one li            { float:left }
+#two li            { display:inline }
+#three li          { display:inline-block }

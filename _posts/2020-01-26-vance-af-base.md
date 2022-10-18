@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Vance Air Force Base"
-date: 2021-01-26T14:16:11-04:00
+date: 2020-01-26T14:16:11-04:00
 modified:
 description: "Vance Air Force Base - Happy Playgrounds"     # For Twitter, not the Title
 categories:
@@ -12,8 +12,8 @@ header:
     image: /assets/images/vance-af1.jpeg            # Twitter (use 'overlay_image')
     overlay_image: /assets/images/vance-af1.jpeg    # Article header at 2048x768
     overlay_filter: 0.15
-    teaser: /assets/images/2022/09/25/IMAUG-Header-Twitter.jpg   # Shrink image to 575x216
-    caption: "Happy Playgrounds credit: [**Kelli Collins**](https://www.happyplaygrounds.com)"
+    teaser: /assets/images/2020/01/26/vance-teaser.jpg   # Shrink image to 575x216
+    caption: "Happy Playgrounds, LLC"
 ---
 
 2019 was an incredible year,

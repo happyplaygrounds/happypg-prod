@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "PlayCubes™ By Playworld®!"
+title: "PlayCubes™ By Playworld®"
 date: 2021-09-23T14:16:11-04:00
 modified:
 description: "PlayCubes by Playworld - Incredible fun playground features"     # For Twitter, not the Title
@@ -12,8 +12,8 @@ header:
     image: /assets/images/play-cubes.jpeg            # Twitter (use 'overlay_image')
     overlay_image: /assets/images/play-cubes.jpeg    # Article header at 2048x768
     overlay_filter: 0.15
-    teaser: /assets/images/2022/09/25/IMAUG-Header-Twitter.jpg   # Shrink image to 575x216
-    caption: "Happy Playgrounds credit: [**Justin Rummel**](https://www.justinrummel.com)"
+    teaser: /assets/images/2021/09/23/playcubes-teaser.jpg   # Shrink image to 575x216
+    caption: "Happy Playgrounds, LLC"
 ---
 
 
