@@ -59,11 +59,22 @@ permalink: /contact/
   			<label for="name">Message:</label>
   			<textarea name="message" required></textarea>
   		</div>
+		<input type="hidden" name="recaptcha" id="recaptcha">
   		<button type="submit" class="btn btn-primary">Submit</button>
   		<div>
     		<p id="result-text"></p>
   	</div>
 		</form>
+	<script src="https://www.google.com/recaptcha/api.js?render=6LcJCVscAAAAAI8N3u9Pk1C7RlKg0n04CIXkxyek"></script>
+	<script>
+	grecaptcha.ready(function() {
+          grecaptcha.execute('6LcJCVscAAAAAI8N3u9Pk1C7RlKg0n04CIXkxyek', {action: 'submit'}).then(function(token) {
+            if (token) {
+		document.getElementById('recaptcha').value = token;
+		   }
+            });
+         });
+	</script>
         </div>
         
    </div>
@@ -78,7 +89,7 @@ permalink: /contact/
   	// prevent the form submit from refreshing the page
   	event.preventDefault();
 
-  	const { name, email,phone, message } = event.target;
+  	const { name, email,phone, message, recaptcha } = event.target;
 
 	// Use your API endpoint URL you copied from the previous step
 	const endpoint = 'https://1z3ri7ni2f.execute-api.us-east-1.amazonaws.com/default/lambda_SES';
@@ -88,8 +99,11 @@ permalink: /contact/
     	senderName: name.value,
     	senderEmail: email.value,
     	senderPhone: phone.value,
-    	message: message.value
+    	message: message.value,
+    	captcha: recaptcha.value
   	});
+
+      console.log('body ', body); // 👉️ 200
 
   	const requestOptions = {
     	method: "POST",

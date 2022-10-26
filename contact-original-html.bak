@@ -1,0 +1,122 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+---
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<div class="container">
+
+<section class="contact-us-section">
+  <div class="row">         
+    <div class="col-md-6 contact-us-section-left">
+      <h2 class="contact-us-header">Get In Touch</h2>
+  
+      <div class="responsive-embed">  
+        <iframe                
+          width="450"          
+          height="250"         
+          frameborder="0"      
+          style="border:0"     
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBN9Fw1TsA7wjqQCR9EwNT3wiOzR3wYdJU&q=Tulsa+OK" allowfullscreen>
+        </iframe>
+      </div>
+          
+      <div>
+	<p><i class="fa fa-map-marker" aria-hidden="true"></i> -  8601 South Oxford Avenue Tulsa, Oklahoma</p>
+	<p><i class="fa fa-phone" aria-hidden="true"></i> - 918.851.9518</p>         
+	<p> <ul class="list-unstyled list-inline">
+      <li class="list-inline-item"><a href="http://twitter.com/playworldplay"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i>Twitter</a></li>
+      <li class="list-inline-item"><a href="https://www.facebook.com/happyplaygrounds"><i class="fab fa-fw fa-facebook-square" aria-hidden="true"></i>Facebook</a></li>
+   </ul></p>
+	<p> <ul class="list-unstyled list-inline marketing-site-footer-menu-social">
+      <li class="list-inline-item"><a href="http://linkedin.com/company/happyplaygrounds"><i class="fab fa-fw fa-linkedin"></i>LinkedIn</a></li>
+      <li class="list-inline-item"><a href="https://www.instagram.com/happyplaygrounds/?hl=en"><i class="fab fa-fw fa-instagram" aria-hidden="true"></i>Instagram</a></li>
+   </ul></p>
+      </div>
+    </div>
+        
+        <div class="col-md-6 contact-us-section-right">
+	<h2>Email Us</h2>
+		<form>
+  			<div class="form-group">
+  			<label for="name">Name:</label>
+  			<input name="name" type="text"/>
+  		</div>
+  		<div class="form-group">
+  			<label for="email">Email:</label>
+  			<input name="email" type="email" required /><br/><br/>
+        		<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  		</div>
+  		<div class="form-group">
+         		<label for="phone">Phone:</label>
+  			<input name="phone" type="phone"/><br/><br/>
+  		</div>
+  		<div class="form-group">
+  			<label for="name">Message:</label>
+  			<textarea name="message" required></textarea>
+  		</div>
+  		<button type="submit" class="btn btn-primary">Submit</button>
+  		<div>
+    		<p id="result-text"></p>
+  	</div>
+		</form>
+        </div>
+        
+   </div>
+</section>
+</div>  
+
+
+ <script type="text/javascript">
+	const form = document.querySelector("form");
+	form.addEventListener("submit", (event) => {
+
+  	// prevent the form submit from refreshing the page
+  	event.preventDefault();
+
+  	const { name, email,phone, message } = event.target;
+
+	// Use your API endpoint URL you copied from the previous step
+	const endpoint = 'https://1z3ri7ni2f.execute-api.us-east-1.amazonaws.com/default/lambda_SES';
+
+	// We use JSON.stringify here so the data can be sent as a string via HTTP
+	const body = JSON.stringify({
+    	senderName: name.value,
+    	senderEmail: email.value,
+    	senderPhone: phone.value,
+    	message: message.value
+  	});
+
+  	const requestOptions = {
+    	method: "POST",
+    	body
+  	};
+
+     fetch(endpoint, requestOptions)
+     .then(response => {
+       if (response.status == 200) {
+         document.getElementById("result-text").innerText =
+        "Email sent successfully!";
+       }
+       else {
+         document.getElementById("result-text").innerText =
+        "An email error occurred. Please call or email us directly from the information in our website footer";
+      }
+      setTimeout(function () {
+   		window.location.href = "thank-you.html"; //will redirect to your blog page (an ex: blog.html)
+                 }, 4000); //will call the function after 2 secs.
+      console.log('response.status: ', response.status); // 👉️ 200
+      console.log(response);
+    })
+    .catch(err => {
+      console.log(err);
+    });
+});
+  </script>
+</div>
+</html>
+
