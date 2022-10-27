@@ -1,0 +1,100 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading py-3">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+
+  {% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
+
+  <div class="container videos">
+  <h1>Happy Playgrounds Video Gallery</h1>
+  {%- if posts.size > 0 -%}
+    {%- if page.list_title -%}
+      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+    {%- endif -%}
+  	{% assign videos = site.videos | reverse %}
+        {% for video in videos limit: 4 %}
+  {% comment %}{% raw %}  		<a href='{{ site.baseurl }}{{ video.url }}'>
+		<img class="img-fluid" src='https://d1wfqjcm45bc90.cloudfront.net/{{ video.image }}' />
+      		<h3>{{ video.title }} </h3>
+		<h3><time>{{ video.date | date: '%d %B %Y'}}</time></h3>
+    		</a>
+  {% endraw %}{% endcomment %}
+
+<article itemscope itemtype='http://schema.org/VideoObject'>
+  <header>
+	  <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet" />
+	  <h2 itemprop='name'>{{ page.title }}</h2>
+	  <time itemprop='uploadDate' content='{{ page.date }}'>
+	    {{ page.date | date: '%d %B %Y'}}
+	  </time>
+   </header>
+	<section class='video-wrapper'>
+<div class="videocontent">
+  <video-js
+     id="{{video.happy_id}}"
+    class="video-js"
+    controls
+    preload="auto"
+    width="940"
+    height="564"
+    poster="https://d1wfqjcm45bc90.cloudfront.net/{{ video.image }}"
+    data-setup='{"fluid": true}'
+    >
+    <source src="{{video.happysource}}" type="application/x-mpegURL">
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
+    </p>
+  </video-js>
+</div>
+  <script src="https://unpkg.com/video.js/dist/video.js"></script>
+  <script src="https://unpkg.com/@videojs/http-streaming/dist/videojs-http-streaming.js"></script>
+
+	</section>
+	<section class='description' itemprop='description'>
+  	{{ video.content }}
+  </section>
+</article>
+
+
+{% endfor %}
+  </div>
+
+
+    {% if site.paginate %}
+      <div class="pager">
+        <ul class="pagination">
+        {%- if paginator.previous_page %}
+          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+          <li><div class="current-page">{{ paginator.page }}</div></li>
+        {%- if paginator.next_page %}
+          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+        </ul>
+      </div>
+    {%- endif %}
+
+  {%- endif -%}
+
+
+
+</div>

@@ -205,6 +205,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  videos:
+    output: true
+    permalink: /:path/
 
 
 # Defaults

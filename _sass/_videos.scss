@@ -71,14 +71,14 @@ $marketing-site-footer-bottom-bg: #828282;
   height: 400px;
   font-weight: normal;
   color: lighten(#7382A3, 40%);
-  padding: 2rem 0 0;
+  padding: 1rem 0 0;
 
   .marketing-site-footer-menu-social a {
     color: #FFFFFF;
   }
 
   .column-block {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   > .col {
@@ -130,8 +130,8 @@ $marketing-site-footer-bottom-bg: #828282;
 .marketing-site-footer-bottom {
   background: darken(#828282, 20%);
   color: #FeFeFe;
-  height: 150px;
-  padding: 1rem 0;
+  height: 125px;
+  padding: 0rem 0;
 
     a {
       color: #FeFeFe;
@@ -195,12 +195,12 @@ $marketing-site-footer-bottom-bg: #828282;
 }
 
 .home{
-	margin-top: 100px !important;
+	margin-top: 50px !important;
 
 }
 
 .video-js {
-	width: 940px !important;
+	width: 1100px !important;
 	height: 564px !important;
 }
 
