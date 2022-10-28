@@ -5,7 +5,7 @@ date: 2022-09-29T14:16:11-04:00
 modified:
 description: "Race Report for Ironman 70.3 race in Augusta GA"     # For Twitter, not the Title
 categories:
-    - "Race Report"
+    - "Race Report Test"
 tags:
     - Triathlon
     - IRONMAN
