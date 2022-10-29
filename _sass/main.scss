@@ -223,7 +223,9 @@ h1 {
 	 margin: auto;
   width: 100%;
   padding: 10px;
-  height: 650px;
+    @media screen and (min-width: 64em) { height: 650px; object-fit: cover; }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) { height: 450; object-fit: cover;}
+    @media screen and (max-width: 39.9375em) { height: 300px; object-fit: cover; }
 }
 
 .orbit-image {
@@ -415,8 +417,6 @@ body{
 }
 
 .img-fit {
-	width: 773px;
-        height: 404px;
         object-fit: cover;
 }
 
