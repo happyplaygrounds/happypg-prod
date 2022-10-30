@@ -1,4 +1,4 @@
-<div class="page__footer-follow">
+<!-- <div class="page__footer-follow">
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
       <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
@@ -19,255 +19,8 @@
 </div>
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
-
-<!-- Flip Card on Home Page this is to test prod env -->
-
-
-{% if page.url == "/index.html" %}
-
-<div class="container">
-
-  <div class="grid-x small-up-1 medium-up-2 align-center">
-
-   <div class="cell">
-    <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
-      <div class="flip-card-inner">
-        <div class="flip-card-inner-front">
-          <span>PlayCubes Extensions</span>
-        </div>
-        <div class="flip-card-inner-back">
-            <%= link_to image_tag("https://images.happyplaygrounds.com/homepage/playworld.svg", alt: "PlayWorld"), "https://playworld.com", target: :_blank %>
-            <!--<h3 class="flip-card-inner-back-title">Play World Play!</h3> -->
-          <p class="flip-card-inner-back-text">Extend the fun! PlayCubes extensions are exciting elements that add challenge and varied climbing paths to any PlayCubes structure. </p>
-          <a href="https://playworld.com/playcubesextensions" class="button round success" target="_blank">Check it out</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="cell">
-    <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
-      <div class="flip-card-inner">
-        <div class="flip-card-inner-front two">
-          <span>Distinctive Components</span>
-        </div>
-        <div class="flip-card-inner-back">
-            <%= link_to image_tag("https://images.happyplaygrounds.com/homepage/playworld.svg", alt: "PlayWorld"), "https://playworld.com", target: :_blank %>
-            <!--<h3 class="flip-card-inner-back-title">Play World Play!</h3> -->
-          <p class="flip-card-inner-back-text">Playworld's new distinctive components bring a unique aesthetic and unmatched play value to Playworld's Challengers and Playmakers product lines.</p>
-          <a href="https://playworld.com/new-components" class="button round success" target="_blank">Come on in</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-</div>
-
-  <div class="grid-x small-up-1 medium-up-2 align-center">
-
-   <div class="cell">
-    <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
-      <div class="flip-card-inner">
-        <div class="flip-card-inner-front three">
-          <span>Sky Towers</span>
-        </div>
-        <div class="flip-card-inner-back">
-            <%= link_to image_tag("https://images.happyplaygrounds.com/homepage/playworld.svg", alt: "PlayWorld"), "https://playworld.com", target: :_blank %>
-            <!--<h3 class="flip-card-inner-back-title">Play World Play!</h3> -->
-          <p class="flip-card-inner-back-text">Imaginative, innovative, and unforgettable, Sky Towers,  evokes the exciting sensation of climbing through the sky and being one with nature!</p>
-          <a href="https://playworld.com/skytowers" class="button round success" target="_blank">More Information</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="cell">
-    <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
-      <div class="flip-card-inner">
-        <div class="flip-card-inner-front four">
-          <span>PlayTown</span>
-        </div>
-        <div class="flip-card-inner-back">
-            <%= link_to image_tag("https://images.happyplaygrounds.com/homepage/playworld.svg", alt: "PlayWorld"), "https://playworld.com", target: :_blank %>
-            <!--<h3 class="flip-card-inner-back-title">Play World Play!</h3> -->
-          <p class="flip-card-inner-back-text">Our Town was created with input from child development and inclusive play consultants to ensure that everyone is welcome. Each item is full of whimsical details to encourage solitary, social, and imaginative play. Clear lines of sight make supervision easy.</p>
-          <a href="https://playworld.com/our-town" class="button round success" target="_blank">See it</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-</div>
-
-  <div class="grid-x small-up-1 medium-up-2 align-center">
-
-  <div class="cell">
-    <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
-      <div class="flip-card-inner">
-        <div class="flip-card-inner-front five">
-          <span>Timber Stacks</span>
-        </div>
-        <div class="flip-card-inner-back">
-            <%= link_to image_tag("https://images.happyplaygrounds.com/homepage/playworld.svg", alt: "PlayWorld"), "https://playworld.com", target: :_blank %>
-          <p class="flip-card-inner-back-text">Play the natural way. These are towering play structures that last long and resist decay and splinters!</p>
-          <a href="https://playworld.com/timber-stacks" class="button round success" target="_blank">See More</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="cell">
-    <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
-      <div class="flip-card-inner">
-        <div class="flip-card-inner-front six">
-          <span>Slide-A-Side</span>
-        </div>
-        <div class="flip-card-inner-back">
-            <%= link_to image_tag("https://images.happyplaygrounds.com/homepage/playworld.svg", alt: "PlayWorld"), "https://playworld.com", target: :_blank %>
-          <p class="flip-card-inner-back-text">Thoughtfully designed to be a comfortable resting
-area for anyone needing extra time, the Slide-a-Side
-makes sliding extra fun for everyone!</p>
-           <a href="https://playworld.com/slide-a-side" class="button round success" target="_blank">Learn More</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-  <div class="grid-x small-up-1 medium-up-2 align-center">
-
-  <div class="cell">
-    <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
-      <div class="flip-card-inner">
-        <div class="flip-card-inner-front seven">
-          <span>PlaySoleil</span>
-        </div>
-        <div class="flip-card-inner-back">
-            <%= link_to image_tag("https://images.happyplaygrounds.com/homepage/playworld.svg", alt: "PlayWorld"), "https://playworld.com", target: :_blank %>
-          <p class="flip-card-inner-back-text">PlaySoleil™ is a patented, solar-powered light durably designed to fit easily into the posts of new or existing playground structures. Shining light in a downward trajectory from atop the equipment, PlaySoleil illuminates playgrounds, discouraging unwanted after-hours activity without the need to run electricity.</p>
-          <a href="https://playworld.com/products/playsoleil" class="button round success" target="_blank">Learn More</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="cell">
-    <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
-      <div class="flip-card-inner">
-        <div class="flip-card-inner-front eight">
-          <span>Denali Nets</span>
-        </div>
-        <div class="flip-card-inner-back">
-            <%= link_to image_tag("https://images.happyplaygrounds.com/homepage/playworld.svg", alt: "PlayWorld"), "https://playworld.com", target: :_blank %>
-          <p class="flip-card-inner-back-text">Kids will feel like adventurers as they scale the colossal Denali Net, inspired by the Alaskan mountain. Denali 2M was created for children ages 2-5 and can accommodate up to 6 users at a time. Every Denali Net is made from nylon-wrapped galvanized steel cable, ensuring that aspiring mountaineers will enjoy the climb for years to come
-</p>
-          <a href="https://playworld.com/products/denali-2m-net" class="button round success" target="_blank">Learn More</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
-<!-- new add -->
-</div>
-
-
-<!--
-<div class="grid-container fluid home_photos_div">
-    <div class="grid-x grid-padding-x align-center-middle text-center" style="height: 250px;">
-
-            <div class="cell small-12 align-self-middle align-self-center">
-                    <h1 style="color: #FFFFFF;">PHOTOS</h1>
-            </div>
-
-     </div>
-</div>
 -->
-{% endif %}
 
-<!-- vendor slider -->
-
-<div class="container-fluid">
-<div class="slick-carousel">
-          <div>
-            <a href="https://americana.com", target: :_blank>
-              <img src="https://d1wfqjcm45bc90.cloudfront.net/Americana2.png"
-                    alt: "Americana">
-            </a>
-          </div>
-          <div>
-            <a href="https://www.exo.fit", target: :_blank>
-              <img src="https://happypg-prod.s3.amazonaws.com/exofit.jpg"
-                    alt: "Exofit">
-            </a>
-          </div>
-          <div>
-            <a href="https://www.sportsplayinc.com", target: :_blank>
-              <img src="https://d1wfqjcm45bc90.cloudfront.net/vendors/Sportsplay.jpg"
-                   alt: "Sports Play">
-            </a>
-          </div>
-          <div>
-            <a href="https://www.usa-shade.com/", target: :_blank>
-              <img src="https://d1wfqjcm45bc90.cloudfront.net/vendors/usa-shade3.png"
-                   alt: "USA Shade">
-            </a>
-          </div>
-          <div>
-            <a href="https://playworld.com", target: :_blank>
-              <img src="https://d1wfqjcm45bc90.cloudfront.net/playworld-logo7.png"
-                   alt: "PlayWorld">
-            </a>
-          </div>
-          <div>
-            <a href="https://southwestgreens.com", target: :_blank>
-              <img src="https://d1wfqjcm45bc90.cloudfront.net/vendors/sw-greens-logo3.png"
-                   alt: "Southwest Greens">
-            </a>
-          </div>
-          <div>
-            <a href="http://www.themedconcepts.com", target: :_blank>
-              <img src="https://d1wfqjcm45bc90.cloudfront.net/vendors/themed-concepts-logo.png"
-                   alt: "Themed Concepts">
-            </a>
-          </div>
-          <div>
-            <a href="https://www.ultra-site.com", target: :_blank>
-              <img src="https://d1wfqjcm45bc90.cloudfront.net/vendors/ultrasite.jpg"
-                   alt: "Ultra Site">
-            </a>
-          </div>
-          <div>
-            <a href="https://www.sportsplayinc.com", target: :_blank>
-              <img src="https://d1wfqjcm45bc90.cloudfront.net/vendors/Sportsplay.jpg"
-                   alt: "Wabash Valley">
-            </a>
-          </div>
-          <div>
-            <a href="http://www.softplay.com", target: :_blank>
-              <img src="https://d1wfqjcm45bc90.cloudfront.net/softplay-logo.png"
-                   alt: "Soft Play">
-            </a>
-          </div>
-          <div>
-            <a href="http://www.playtime.com", target: :_blank>
-              <img src="https://d1wfqjcm45bc90.cloudfront.net/playtime-logo5.png"
-                   alt: "Play Time">
-            </a>
-          </div>
-          <div>
-            <a href="http://www.tayplay.com"", target: :_blank>
-              <img src="https://d1wfqjcm45bc90.cloudfront.net/tayplay-logo11.png"
-                   alt: "Tayplay">
-            </a>
-          </div>
-  </div>
-</div>
 
 <!--
 <div class="grid-container fluid">
@@ -287,15 +40,15 @@ makes sliding extra fun for everyone!</p>
 
 <!-- Sales Brochure  -->
 
-<div class="container-fluid">
-  <div class="grid-x grid-padding-x align-center">
+<div class="container">
+  <div class="d-flex flex-row justify-content-center">
 
-      <div class="cell small-2 medium-2 small-offset-1">
-        <img src="https://happypg-prod.s3.amazonaws.com/coupon.png"
+      <div class="p-2">
+        <img src="https://happypg-prod.s3.amazonaws.com/coupon.png" width="100px" height="100px">
       </div>
 
-      <div class="cell small-6 medium-9">
-        <h3>View PLAYWORLD's second half of 2022 sale items <a href="https://happypg-prod.s3.amazonaws.com/Happy_2022_2H_Promo.pdf">here</a></h3>
+      <div class="p-2">
+        <h4>View PLAYWORLD's second half of 2022 sale items <a href="https://happypg-prod.s3.amazonaws.com/Happy_2022_2H_Promo.pdf">here</a></h4>
         <h3>Made in the USA</h3>
       </div>
 
@@ -303,155 +56,152 @@ makes sliding extra fun for everyone!</p>
 </div>
 
 
-
+<h1>{{ page.url }} {{ site.url }}</h1>
 <!-- Interested Block -->
 {% if page.url != "/contact.html" %}
-   <div class="interested-block grid-x align-spaced">
-       <div class="cell shrink">
+   <div class="interested-block wide">
          <h1>Interested?</h1>
-         <%= link_to "CONTACT US NOW", "/contact.html", class: "success round button", target: :_blank %>
-       </div>
+	 <a href="/contact" class="btn btn-primary active" role="button" aria-pressed="true">Contact Us Now</a>
    </div>
 {% endif %}
 
-<footer class="marketing-site-footer" id="footer">
-  <div class="grid-container fluid">
-     <div class="grid-x grid-margin-x grid-padding-x align-spaced">
+<footer class="footer marketing-site-footer">
 
-       <div class="cell medium-3 large-2 align-center">
-      <h4 class="marketing-site-footer-name">Happy Playgrounds</h4>
-      <p>Oklahoma and Arkansas's Premier Supplier <br> of Playgrounds and Site Amenities</p>
-      <ul class="menu marketing-site-footer-menu-social">
-         <li><a href="http://twitter.com/playworldplay"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
-         <li><a href="https://www.facebook.com/happyplaygrounds"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
-         <li><a href="http://linkedin.com/company/happyplaygrounds"><i class="fa fa-linkedin fa-2x"></i></a></li>
-         <li><a href="https://www.instagram.com/happyplaygrounds/?hl=en"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
-      </ul>
-    </div>
+  <div class="container-fluid">
+  <div class="row d-flex justify-content-center">
 
-   <div class="cell medium-2 large-2">
-       <h4 class="marketing-site-footer-title">Our Core Values</h4>
-      <div class="marketing-site-footer-block">
-        <ul>
-            <li>Honesty</li>
-            <li>Integrity</li>
-            <li>Ethics</li>
-            <li>Respect</li>
-            <li>Accountability</li>
-        </ul>
-      </div>
-    </div>
+    <div class="col-md-3 col-lg-2">
+   <h4 class="marketing-site-footer-name">Happy Playgrounds</h4>
+   <p>Oklahoma and Arkansas's Premier Supplier <br> of Playgrounds and Site Amenities</p>
+   <ul class="list-unstyled list-inline marketing-site-footer-menu-social">
+      <li class="list-inline-item"><a href="http://twitter.com/playworldplay"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+      <li class="list-inline-item"><a href="https://www.facebook.com/happyplaygrounds"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+      <li class="list-inline-item"><a href="http://linkedin.com/company/happyplaygrounds"><i class="fa fa-linkedin fa-2x"></i></a></li>
+      <li class="list-inline-item"><a href="https://www.instagram.com/happyplaygrounds/?hl=en"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+   </ul>
+ </div>
 
-   <div class="cell medium-2 large-4">
-       <h4 class="marketing-site-footer-title">Certifications</h4>
-      <div class="marketing-site-footer-block">
-        <ul>
-            <li>
-              <!-- <a href="http://cherokeetero.com/directory/listing/happy-playgrounds-llc"<i class="fa fa-external-link" aria-hidden="true" target="_blank"></i></a>
-              &nbsp&nbsp -->
-              <%= link_to image_tag("https://d1wfqjcm45bc90.cloudfront.net/fit-in/75x75/tero.jpg", :alt=>"Cherokee Nation Tero Vendor"), "http://cherokeetero.com/directory/listing/happy-playgrounds-llc", target: '_blank' %>
-              <strong>TERO Cherokee Nation Certification</strong>
-            </li>
+<div class="col-md-2">
+    <h4 class="marketing-site-footer-name">Our Core Values</h4>
+   <div class="marketing-site-footer-block">
+     <ul>
+         <li>Honesty</li>
+         <li>Integrity</li>
+         <li>Ethics</li>
+         <li>Respect</li>
+         <li>Accountability</li>
+     </ul>
+   </div>
+ </div>
 
-            <li>
-              <!-- <a href="https://www.wbenc.org"<i class="fa fa-external-link" aria-hidden="true" target="_blank"></i></a>
-                &nbsp&nbsp -->
-              <%= link_to image_tag("https://d1wfqjcm45bc90.cloudfront.net/fit-in/75x75/wbe-circle.png", :alt=>"Womens Enterprise Business"),"https://www.wbenc.org", target: '_blank' %>
-              <strong>Womens Business Enterprise National Council</strong>
-            </li>
+<div class="col-md-3 col-lg-4">
+    <h4 class="marketing-site-footer-name">Certifications</h4>
+   <div class="marketing-site-footer-block">
+     <ul>
+         <li>
+           <a href="http://cherokeetero.com/directory/listing/happy-playgrounds-llc"<i class="fa fa-external-link" aria-hidden="true" target="_blank"></i></a>
+<a href="http://cherokeetero.com/directory/listing/happy-playgrounds-llc" class="btn">
+<img src="https://d1wfqjcm45bc90.cloudfront.net/fit-in/65x65/tero.jpg" alt="">
+      </a>
+           TERO Cherokee Nation Certification
+         </li>
 
-            <li>
-              <!-- <a href="https://www.wbenc.org"<i class="fa fa-external-link" aria-hidden="true" target="_blank"></i></a>
-                &nbsp&nbsp -->
-              <%= link_to image_tag("https://d1wfqjcm45bc90.cloudfront.net/fit-in/75x75/cpsi.jpg", :alt=>"Certified Playground Safety Inspector"),"https://www.nrpa.org/certification/CPSI/", target: '_blank' %>
-              <strong>Certified Playground Safety Inspector</strong>
-            </li>
+         <li>
+           <a href="https://www.wbenc.org"<i class="fa fa-external-link" aria-hidden="true" target="_blank"></i></a>
+<a href="http://cherokeetero.com/directory/listing/happy-playgrounds-llc" class="btn">
+ <img src="https://d1wfqjcm45bc90.cloudfront.net/fit-in/75x75/wbe-circle.png" alt="">
+      </a>
+           Womens Business Enterprise National Council
+         </li>
 
-        </ul>
-      </div>
-    </div>
+         <li>
+          <a href="https://www.nrpa.org/certification/CPSI/"<i class="fa fa-external-link" aria-hidden="true" target="_blank"></i></a>
+<a href="https://www.nrpa.org/certification/CPSI/" class="btn">
+ <img src="https://d1wfqjcm45bc90.cloudfront.net/fit-in/75x75/cpsi.jpg" alt="">
+      </a>
+      Certified Playground Safety Inspector
+        </li>
 
-    <div class="cell medium-2 large-2 align-center">
-       <h4 class="marketing-site-footer-title">Locations</h4>
-      <div class="marketing-site-footer-block">
-        <i class="fa fa-map-marker" aria-hidden="true"></i>
-        <p>Headquarters:<br>8601 South Oxford Ave<br>Tulsa, OK 74137</p>
-      </div>
+     </ul>
+   </div>
+ </div>
 
-      <div class="marketing-site-footer-block">
-        <i class="fa fa-map-marker" aria-hidden="true"></i>
-        <p>Arkansas<br>1120 Tulip Street<br>Centerton, AR 72719</p>
-      </div>
-    </div>
+ <div class="col-md-2">
+    <h4 class="marketing-site-footer-name">Locations</h4>
+   <div class="marketing-site-footer-block">
+     <i class="fa fa-map-marker" aria-hidden="true"></i>
+     <p>Headquarters:<br>8601 South Oxford Ave<br>Tulsa, OK 74137</p>
+   </div>
+   
+   <div class="marketing-site-footer-block">
+     <i class="fa fa-map-marker" aria-hidden="true"></i>
+     <p>Arkansas<br>1120 Tulip<br>Centerton, AR 72719</p>
+   </div>
+   
+ </div>
 
 
-   <div class="cell medium-3 large-2">
-       <h4 class="marketing-site-footer-title">Contact</h4>
-      <div class="marketing-site-footer-block">
-        <i class="fa fa-phone" aria-hidden="true"></i>
-        <p>Kelli Collins 918.851.9518</p>
-      </div>
-      <div class="marketing-site-footer-block">
-        <a href="mailto:kelli.collins@happyplaygrounds.com"<i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-        <p>Click the envelope to email Kelli</p>
-      </div>
-      <!-- <div class="marketing-site-footer-block">
-        <a href="/contact"<i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-        <p>Click the envelope to drop us a note<br> or request a quote</p>
-      </div> -->
-      <div class="marketing-site-footer-block">
-        <i class="fa fa-phone" aria-hidden="true"></i>
-        <p>Daniel Collins, CPSI 918.691.8245</p>
-      </div>
-      <div class="marketing-site-footer-block">
-        <a href="mailto:daniel.collins@happyplaygrounds.com"<i class="fa fa-envelope-o" aria-hidden="true"></i></a>
-        <p>Click the envelope to email Daniel</p>
-      </div>
-  </div>
-
-  </div>
+<div class="col-md-2">
+    <h4 class="marketing-site-footer-name">Contact</h4>
+   <div class="marketing-site-footer-block">
+     <i class="fa fa-phone" aria-hidden="true"></i>
+     <p>Kelli Collins 918.851.9518</p>
+   </div>
+   <div class="marketing-site-footer-block">
+     <a href="mailto:kelli.collins@happyplaygrounds.com"<i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+     <p>Click the envelope to email Kelli</p>
+   </div>
+   <!-- <div class="marketing-site-footer-block">
+     <a href="/contact"<i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+     <p>Click the envelope to drop us a note<br> or request a quote</p>
+   </div> -->
+   <div class="marketing-site-footer-block">
+     <i class="fa fa-phone" aria-hidden="true"></i>
+     <p>Daniel Collins 918.691.8245</p>
+   </div>
+   <div class="marketing-site-footer-block">
+     <a href="mailto:daniel.collins@happyplaygrounds.com"<i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+     <p>Click the envelope to email Daniel</p>
+   </div>
 </div>
 
-  <div class="marketing-site-footer-bottom">
-
-    <div class="grid-x grid-padding-x align-justify">
-
-
-      <div class="cell small-12 medium-6 align-bottom">
-         <%= link_to "Privacy Policy", "/privacy-policy.html", target: :_blank %>
-      </div>
-
-      <div class="cell small-4 medium-6 align-bottom" id="footer-menu">
-        <ul class="dropdown menu" data-dropdown-menu>
-          <%= foundation_menu(refinery_menu_pages, list_tag_css: 'dropdown menu').to_html %>
-          <%#= Refinery::Pages::FoundationMenuPresenter.new(refinery_menu_pages, self).to_html %>
-        </ul>
-      </div>
-
-    </div>
-
-    <div class="grid-x grid-padding-x align-justify">
-      <div class="cell small-12 medium-6 align-bottom">
-        <p style="font-size: .777em;"><%= t('.copyright', :year => Time.now.year, :site_name => Refinery::Core.site_name) %></p>
-      </div>
-    </div>
-
-  </div>
+</div>
+</div>
 
 </footer>
 
-<!-- <script type="text/javascript">
-    $(document).on('turbolinks:load', function(){
-      $('.slick-carousel').slick({
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        autoplay: true,
-        infinite: true,
-        centerMode: false,
-        centerPadding: '10px',
-        speed: 1800,
-        dots: false,
-	arrows: true
-      });
-    });
-</script> -->
+<div class="marketing-site-footer-bottom">
+
+ <div class="row d-flex align-items-center">
+
+   <div class="col-md-6 col-sm-12">
+		<a href="/privacy-policy.html" >
+  			Privacy Policy
+      		</a>
+   </div>
+
+   <div class="col-md-6 col-sm-4m" id="footer-menu">
+           <nav class="navbar navbar-expand-lg navbar-light">
+           <div class="navbar-nav">
+                   <a class="nav-link" href="https://www.happyplaygrounds.com/home">Home</a>
+                   <a class="nav-link" href="https://www.happyplaygrounds.com/about-us">About Us</a>
+                   <a class="nav-link" href="https://www.happyplaygrounds.com/our-products">Our Products</a>
+                   <a class="nav-link" href="https://www.happyplaygrounds.com/our-services">Our Services</a>
+                   <a class="nav-link" href="https://www.happyplaygrounds.com/gallery">Gallery</a>
+                   <a class="nav-link" href="https://www.happyplaygrounds.com/blog">Blog</a>
+                   <a class="nav-link" href="https://www.happyplaygrounds.com/contact">Contact Us</a>
+           </div>
+           </nav>
+   </div>
+
+ </div>
+
+ <div class="row grid-padding-x align-justify">
+   <div class="col small-12 medium-6 align-bottom">
+     <p>
+     All content copyright {{ site.name }} &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved.
+     </p>
+   </div>
+ </div>
+
+</div>

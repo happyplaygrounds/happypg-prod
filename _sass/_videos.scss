@@ -60,7 +60,7 @@ a { text-decoration: none;
         background: url('https://d1wfqjcm45bc90.cloudfront.net/footer-top.jpg') center center no-repeat;
         background-size: cover;
         padding: 50px 0px;
-        margin: 50px 0px;
+        margin: 50px 0px 0px 0px;
 }
 
 $marketing-site-footer-bg: #7382A3;
@@ -68,17 +68,16 @@ $marketing-site-footer-bottom-bg: #828282;
 
 .marketing-site-footer {
   background: #7382A3;
-  height: 400px;
   font-weight: normal;
   color: lighten(#7382A3, 40%);
-  padding: 1rem 0 0;
+  padding: 0rem 0 0 !important;
 
   .marketing-site-footer-menu-social a {
     color: #FFFFFF;
   }
 
   .column-block {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
   }
 
   > .col {
@@ -106,7 +105,7 @@ $marketing-site-footer-bottom-bg: #828282;
 
 .marketing-site-footer-block {
   display: flex;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 
   .fa {
     font-size: 2rem;
@@ -130,7 +129,6 @@ $marketing-site-footer-bottom-bg: #828282;
 .marketing-site-footer-bottom {
   background: darken(#828282, 20%);
   color: #FeFeFe;
-  height: 125px;
   padding: 0rem 0;
 
     a {

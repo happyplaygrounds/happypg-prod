@@ -41,14 +41,14 @@
 <!-- Sales Brochure  -->
 
 <div class="container">
-  <div class="row">
+  <div class="d-flex flex-row justify-content-center">
 
-      <div class="col-md-2">
-        <img src="https://happypg-prod.s3.amazonaws.com/coupon.png">
+      <div class="p-2">
+        <img src="https://happypg-prod.s3.amazonaws.com/coupon.png" width="100px" height="100px">
       </div>
 
-      <div class="col-md-10">
-        <h3>View PLAYWORLD's second half of 2022 sale items <a href="https://happypg-prod.s3.amazonaws.com/Happy_2022_2H_Promo.pdf">here</a></h3>
+      <div class="p-2">
+        <h4>View PLAYWORLD's second half of 2022 sale items <a href="https://happypg-prod.s3.amazonaws.com/Happy_2022_2H_Promo.pdf">here</a></h4>
         <h3>Made in the USA</h3>
       </div>
 
@@ -56,25 +56,23 @@
 </div>
 
 
-
+<h1>{{ page.url }} {{ site.url }}</h1>
 <!-- Interested Block -->
 {% if page.url != "/contact.html" %}
    <div class="interested-block wide">
-       <div class="cell shrink">
          <h1>Interested?</h1>
 	 <a href="/contact" class="btn btn-primary active" role="button" aria-pressed="true">Contact Us Now</a>
-       </div>
    </div>
 {% endif %}
 
 <footer class="footer marketing-site-footer">
 
-  <div class="container-fluid">
   <div class="row d-flex justify-content-center">
 
     <div class="col-md-3 col-lg-2">
    <h4 class="marketing-site-footer-name">Happy Playgrounds</h4>
-   <p>Oklahoma and Arkansas's Premier Supplier <br> of Playgrounds and Site Amenities</p>
+   <p>Oklahoma and Arkansas's Premier Supplier of Playgrounds and Site Amenities</p>
+   <p><em>Building Communities One Playground at a Time</em></p>
    <ul class="list-unstyled list-inline marketing-site-footer-menu-social">
       <li class="list-inline-item"><a href="http://twitter.com/playworldplay"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
       <li class="list-inline-item"><a href="https://www.facebook.com/happyplaygrounds"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
@@ -103,7 +101,7 @@
          <li>
            <a href="http://cherokeetero.com/directory/listing/happy-playgrounds-llc"<i class="fa fa-external-link" aria-hidden="true" target="_blank"></i></a>
 <a href="http://cherokeetero.com/directory/listing/happy-playgrounds-llc" class="btn">
-<img src="https://d1wfqjcm45bc90.cloudfront.net/fit-in/65x65/tero.jpg" alt="">
+<img src="https://d1wfqjcm45bc90.cloudfront.net/fit-in/65x65/tero.jpg" width="75px" height="75px" alt="">
       </a>
            TERO Cherokee Nation Certification
          </li>
@@ -111,7 +109,7 @@
          <li>
            <a href="https://www.wbenc.org"<i class="fa fa-external-link" aria-hidden="true" target="_blank"></i></a>
 <a href="http://cherokeetero.com/directory/listing/happy-playgrounds-llc" class="btn">
- <img src="https://d1wfqjcm45bc90.cloudfront.net/fit-in/75x75/wbe-circle.png" alt="">
+ <img src="https://d1wfqjcm45bc90.cloudfront.net/fit-in/75x75/wbe-circle.png" width="75px" height="75px" alt="">
       </a>
            Womens Business Enterprise National Council
          </li>
@@ -119,7 +117,7 @@
          <li>
           <a href="https://www.nrpa.org/certification/CPSI/"<i class="fa fa-external-link" aria-hidden="true" target="_blank"></i></a>
 <a href="https://www.nrpa.org/certification/CPSI/" class="btn">
- <img src="https://d1wfqjcm45bc90.cloudfront.net/fit-in/75x75/cpsi.jpg" alt="">
+ <img src="https://d1wfqjcm45bc90.cloudfront.net/fit-in/75x75/cpsi.jpg" width="75px" height="75px" alt="">
       </a>
       Certified Playground Safety Inspector
         </li>
@@ -168,37 +166,42 @@
 </div>
 
 </div>
-</div>
-
 </footer>
 
 <div class="marketing-site-footer-bottom">
 
- <div class="row d-flex align-items-center">
 
-   <div class="col-md-6 col-sm-12">
-		<a href="/privacy-policy.html" >
-  			Privacy Policy
-      		</a>
-   </div>
+	   <div class="row">
+	   <div class="col-md-6 col-sm-1 p-4">
+		   <a href="/privacy-policy.html" > Privacy Policy </a>
+	   </div>
+	   <div class="col-md-6 col-sm-11 p-md-4 p-sm-2">
+	   <span class="p-md-4 p-sm-2">
+                   <a  href="https://www.happyplaygrounds.com/home">Home</a>
+	   </span>
+	   <span class="p-md-4 p-sm-2">
+                   <a  href="https://www.happyplaygrounds.com/about-us">About Us</a>
+	   </span>
+	   <span class="p-md-4 p-sm-2">
+                   <a  href="https://www.happyplaygrounds.com/our-products">Our Products</a>
+	   </span>
+	   <span class="p-md-4 p-sm-2">
+                   <a  href="https://www.happyplaygrounds.com/our-services">Our Services</a>
+	   </span>
+	   <span class="p-md-4 p-sm-2">
+                   <a  href="https://www.happyplaygrounds.com/gallery">Gallery</a>
+	   </span>
+	   <span class="p-md-4 p-sm-2">
+                   <a  href="https://www.happyplaygrounds.com/blog">Blog</a>
+	   </span>
+	   <span class="p-md-4 p-sm-2">
+                   <a  href="https://www.happyplaygrounds.com/contact">Contact Us</a>
+	   </span>
+	   </div>
+	   </div>
 
-   <div class="col-md-6 col-sm-4m" id="footer-menu">
-           <nav class="navbar navbar-expand-lg navbar-light">
-           <div class="navbar-nav">
-                   <a class="nav-link" href="https://www.happyplaygrounds.com/home">Home</a>
-                   <a class="nav-link" href="https://www.happyplaygrounds.com/about-us">About Us</a>
-                   <a class="nav-link" href="https://www.happyplaygrounds.com/our-products">Our Products</a>
-                   <a class="nav-link" href="https://www.happyplaygrounds.com/our-services">Our Services</a>
-                   <a class="nav-link" href="https://www.happyplaygrounds.com/gallery">Gallery</a>
-                   <a class="nav-link" href="https://www.happyplaygrounds.com/blog">Blog</a>
-                   <a class="nav-link" href="https://www.happyplaygrounds.com/contact">Contact Us</a>
-           </div>
-           </nav>
-   </div>
 
- </div>
-
- <div class="row grid-padding-x align-justify">
+ <div class="row">
    <div class="col small-12 medium-6 align-bottom">
      <p>
      All content copyright {{ site.name }} &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved.
