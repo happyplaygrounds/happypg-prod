@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Happy Playgrounds"
+title: ""
 date: 2019-11-17T14:16:11-04:00
 modified:
 description: "Happy Playgrounds"     # For Twitter, not the Title
@@ -8,10 +8,10 @@ categories:
 tags:
     - Playground
 header:
-    image: /assets/images/kelli.jpg            # Twitter (use 'overlay_image')
-    overlay_image: /assets/images/kelli.jpg    # Article header at 2048x768
+    image: /assets/images/hp_logo2.png            # Twitter (use 'overlay_image')
+    overlay_image: /assets/images/hp_logo2.png    # Article header at 2048x768
     overlay_filter: 0.15
-    teaser:  # Shrink image to 575x216
+    teaser:  /assets/images/logo_v1.png # Shrink image to 575x216
     caption: "Happy Playgrounds, LLC"
 ---
 
@@ -30,10 +30,4 @@ Fast forward about a year. I was sitting in my office when I received a phone ca
 Until my next post, may happiness fill your heart and soul. 
 
 <!-- Table of Contents -->
-{% include toc icon="gears" title="Race Review ToC" %}
 
-Happy Playgrounds
----
-
-
-[blue]: /ironman-70-3-virginia-blue-ridge-2022-race-report/

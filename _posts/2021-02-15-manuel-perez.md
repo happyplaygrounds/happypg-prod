@@ -28,7 +28,7 @@ Just a month or so ago, I decided to take him to a park that we recently complet
 
 
 <!-- Table of Contents -->
-{% include toc icon="gears" title="Race Review ToC" %}
+{% include toc icon="gears" title="Manuel Perez ToC" %}
 
 Manuel Perez Park - Oklahoma City
 ---
@@ -38,39 +38,14 @@ Manuel Perez Park had their groundbreaking ceremony on Veterans Day, November 11
 
 As we walked slowly throughout the park, I told him all about the items included in this park that Happy Playgrounds was a part of. I showed him the playground structure, the soft surfacing underneath it, the pavilions, and even the site amenities. I sat with him in the bench swing and explained the process of a project from bidding to completion as he gained great enjoyment from watching the children playing. He listened. He told me it was a “very nice place”. As we were driving home, I asked him what his favorite part of the park was, and he replied, “What park? Am I going to a park?”
 
-### PlayWorld
-If you haven’t visited Manuel Perez Park, I encourage you to do so. It was a pleasure to work with W.L. McNatt & Co, the general contractors, as well as Planning Design Group, the landscape architects.
 
-We provided and installed (8) shelters by Americana Building Products, our amazing supplier. The large gathering area includes a 70x38 pavilion with a Spanish tile roof—this is beautiful! Along with that, we installed a Hexagon pavilion next to the playground, and it too, has a Spanish tiled roof. Then scattered throughout the park, you will find 6 trellis styled pergolas. Under one of these, we installed 2 bench swings which allow visitors to relax as they watch their children play. The playground area includes the Playworld Bambino, a multi-sensory playground that provides perceived risk with safe and fun activities. In addition, you will find swings, climbers, and music. I am so proud of the work we did here.
+<img src="https://d1wfqjcm45bc90.cloudfront.net/fit-in/2000x535/manuel-blog10.png" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Construction Phase&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Completed Swings
 
+If you haven’t visited Manuel Perez Park, I encourage you to do so. It was a pleasure to work with <a href="https://wlmcnatt.com" title="Happy Playgrounds" target="_blank">W.L. McNatt &amp; Co</a>, the general contractors, as well as <a href="https://planningdesigngroup.com/projects/parks-recreation/manuel-perez-park-memorial" title="Happy Playgrounds" target="_blank">Planning Design Group</a>, the landscape architects.
 
+### Americana
 
-Sunday Race Breakdown
----
+ We provided and installed (8) shelters by <a href="https://americana.com" title="Happy Playgrounds" target="_blank">Americana Building Products</a>, our amazing supplier. The large gathering area includes a 70x38 pavilion with a Spanish tile roof—this is beautiful! Along with that, we installed a Hexagon pavilion next to the playground, and it too, has a Spanish tiled roof. Then scattered throughout the park, you will find 6 trellis styled pergolas. Under one of these, we installed 2 bench swings which allow visitors to relax as they watch their children play. The playground area includes the <a href="https://playworld.com/products/playville" title="Happy Playgrounds" target="_blank">Playworld Bambino</a>, a multi-sensory playground that provides perceived risk with safe and fun activities. In addition, you will find swings, climbers, and music. I am so proud of the work we did here.
 
-### Installation
-Our amazing  installers had a constant companion throughout the project- look closely behind the orange fencing and you will see a mother goose sitting on her nest. This young mother wasn't bothered at all by us, in fact, I think she enjoyed all the "fuss" and attention we gave her to make sure she was safe and well cared for. Until next time, may peace and happiness fill you always!
-
-
-#### Happy Playgrounds
-
-Happy Playgrounds
-Building Communities One Playground at a Time”
-
-<figure class="fourth">
-<a href="{{ site.url }}/assets/images/2022/09/25/IMAUG-PRO-LG-1.jpg"><img src="{{ site.url }}/assets/images/2022/09/25/IMAUG-PRO-SM-1.jpg" alt="" /></a>
-<a href="{{ site.url }}/assets/images/2022/09/25/IMAUG-PRO-LG-2.jpg"><img src="{{ site.url }}/assets/images/2022/09/25/IMAUG-PRO-SM-2.jpg" alt="" /></a>
-<a href="{{ site.url }}/assets/images/2022/09/25/IMAUG-PRO-LG-3.jpg"><img src="{{ site.url }}/assets/images/2022/09/25/IMAUG-PRO-SM-3.jpg" alt="" /></a>
-<a href="{{ site.url }}/assets/images/2022/09/25/IMAUG-PRO-LG-4.jpg"><img src="{{ site.url }}/assets/images/2022/09/25/IMAUG-PRO-SM-4.jpg" alt="" /></a>
-</figure>
-
-#### Splits
-
-| IMAUG              | 1.2 Mile Swim | T1   | 56 Mile Bike   | T2   | 13.1 Mile Run | Total   |
-|:-------------------|:-------------:|:----:|:--------------:|:----:|:-------------:|--------:|
-| Goal Times         | 35:00         | 5:00 | 2:35:00        | 5:00 | 2:00:00       | 5:20:00 |
-|=====
-| Actual Times       | 30:28         | 4:57 | 2:42:45        | 3:43 | 2:20:02       | 5:41:53 |
-
-
-[blue]: /ironman-70-3-virginia-blue-ridge-2022-race-report/
+ <img src="https://d1wfqjcm45bc90.cloudfront.net/fit-in/1037x700/manuel-blog1.png" />

@@ -6,13 +6,12 @@ modified:
 description: "Happy Birthday"     # For Twitter, not the Title
 categories:
 tags:
-    - Playground
 header:
     image: /assets/images/jude-beck-2020.jpeg            # Twitter (use 'overlay_image')
     overlay_image: /assets/images/jude-beck-2020.jpeg    # Article header at 2048x768
     overlay_filter: 0.15
     teaser: /assets/images/2020/07/05/happy-bday-teaser.jpg   # Shrink image to 575x216
-    caption: "Happy Playgrounds, LLC"
+    caption: "Jude Beck"
 ---
 
 It is hard to believe that we are half way through 2020. As I look back over the first six months of this year, my heart is filled with a variety of emotions. The COVID pandemic has claimed the lives of too many, destroyed the livelihood of business owners, stolen joy from our children, and worsened the emotional outlook for our elderly population.
@@ -31,10 +30,3 @@ Until the next time, check out our new sale for the remainder of the year. Playw
 
 
 <!-- Table of Contents -->
-{% include toc icon="gears" title="Race Review ToC" %}
-
-Happy Birthday America
----
-
-
-[blue]: /ironman-70-3-virginia-blue-ridge-2022-race-report/

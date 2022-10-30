@@ -26,53 +26,32 @@ We completed playground installations for several schools- Deer Creek 4th & 5th 
 
 Deer Creek 4th and 5th Grade Center, located in Edmond Oklahoma, is a new school that opened in August. The new school is surrounded by beautiful pastures, wooded countryside, and even a pumping unit!
 
+### MA+ Architects
 We loved working with MA+ Architects throughout the playground design process…their eye for color and detail never ceases to amaze me. This school project set several records for Happy Playgrounds…it was the largest playground we have worked on, not only in terms of the physical size (43,000 SQ FT!!) and contract value, but at 10 color change revisions, it is in first place!
 
 
 <!-- Table of Contents -->
-{% include toc icon="gears" title="Race Review ToC" %}
+{% include toc icon="gears" title="Deer Creek ToC" %}
 
-Manuel Perez Park - Oklahoma City
----
+<img src="https://d1wfqjcm45bc90.cloudfront.net/fit-in/900x335/deer-creek-blog3.jpg" />
 
-### Construction
-Manuel Perez Park had their groundbreaking ceremony on Veterans Day, November 11. This is a very special park that honors the life and sacrifice of Oklahoma City native Manuel Perez Jr, who earned the Medal of Honor for his bravery and sacrifice during WWII. There is a Memorial Plaza that is dedicated to every Oklahoman who earned the Medal of Honor, but in reality, it is a beautiful tribute to all soldiers, because anyone who serves this country is a hero!
-
-As we walked slowly throughout the park, I told him all about the items included in this park that Happy Playgrounds was a part of. I showed him the playground structure, the soft surfacing underneath it, the pavilions, and even the site amenities. I sat with him in the bench swing and explained the process of a project from bidding to completion as he gained great enjoyment from watching the children playing. He listened. He told me it was a “very nice place”. As we were driving home, I asked him what his favorite part of the park was, and he replied, “What park? Am I going to a park?”
-
-### PlayWorld
-If you haven’t visited Manuel Perez Park, I encourage you to do so. It was a pleasure to work with W.L. McNatt & Co, the general contractors, as well as Planning Design Group, the landscape architects.
-
-We provided and installed (8) shelters by Americana Building Products, our amazing supplier. The large gathering area includes a 70x38 pavilion with a Spanish tile roof—this is beautiful! Along with that, we installed a Hexagon pavilion next to the playground, and it too, has a Spanish tiled roof. Then scattered throughout the park, you will find 6 trellis styled pergolas. Under one of these, we installed 2 bench swings which allow visitors to relax as they watch their children play. The playground area includes the Playworld Bambino, a multi-sensory playground that provides perceived risk with safe and fun activities. In addition, you will find swings, climbers, and music. I am so proud of the work we did here.
+We worked closely with the contractors, <a href="https://www.cmswillowbrook.com" title="Happy Playgrounds" target="_blank">CMS Willowbrook</a>. This was our first project with them, and I hope it won’t be the last because they are wonderful to work with. I learned much about this company and their employees, and I have to say that they are outstanding in terms of work ethic, integrity, experience, and knowledge.
 
 
+Going into this project, I was a bit nervous…we were scheduled for installation at the height of the COVID pandemic, and Playworld was required to shut down for two weeks. However, I must laugh, because honestly, this was one of the easiest, problem-free playground projects I have been involved in, and I attribute this to a variety of factors.
 
-Sunday Race Breakdown
----
+First, I have the greatest playground manufacturer in the industry. Playworld understood how important this project was, so once they were permitted to re-open, they worked round the clock to manufacture the playground equipment in order to minimize the delay. We were able to get the equipment shipped out only 1 week later than scheduled. Every nut, bolt, post, clamp, and panel were shipped in perfect condition. We had “zero” quality control issues.  I was so impressed.
 
-### Installation
-Our amazing  installers had a constant companion throughout the project- look closely behind the orange fencing and you will see a mother goose sitting on her nest. This young mother wasn't bothered at all by us, in fact, I think she enjoyed all the "fuss" and attention we gave her to make sure she was safe and well cared for. Until next time, may peace and happiness fill you always!
+Secondly, the playground installers we employ are simply the best. This project was installed by <a href="https://rexplayground.com" title="Happy Playgrounds" target="_blank">Rex Playgrounds</a>, and they have been in the industry for over 50 years.  John Walters managed this installation, and his knowledge and experience is second to none. I must applaud this guy. But, as the saying goes, “Behind every successful man there stands a strong woman”. That woman is John’s daughter, Brooke. She is responsible for coordinating schedules, tracking and offloading shipments, and so much more! Together they are a fabulous team.
 
+### Pro-Tech
 
-#### Happy Playgrounds
+My poured in place surfacing crew, <a href="https://pro-techssurfacing.com/" title="Happy Playgrounds" target="_blank">Pro-Tech</a>: WOW. I was on site watching them, and they are meticulous, detailed, professional, clean, and work from dawn to dusk. These guys know what they are doing and have zero tolerance for imperfection.
 
-Happy Playgrounds
-Building Communities One Playground at a Time”
+### CMS Willowbrook
+And finally, Dale Smith. Dale is the project supervisor for CMS Willowbrook. Dale is like the “patriarch” of this project- he is wise, willing, and wonderful. Wise, because he knows construction! Willing, because he will do whatever it takes to meet a deadline or fix a problem. And wonderful, because he does it with a smile and always a bit of humor. I’m going to miss this guy.
 
-<figure class="fourth">
-<a href="{{ site.url }}/assets/images/2022/09/25/IMAUG-PRO-LG-1.jpg"><img src="{{ site.url }}/assets/images/2022/09/25/IMAUG-PRO-SM-1.jpg" alt="" /></a>
-<a href="{{ site.url }}/assets/images/2022/09/25/IMAUG-PRO-LG-2.jpg"><img src="{{ site.url }}/assets/images/2022/09/25/IMAUG-PRO-SM-2.jpg" alt="" /></a>
-<a href="{{ site.url }}/assets/images/2022/09/25/IMAUG-PRO-LG-3.jpg"><img src="{{ site.url }}/assets/images/2022/09/25/IMAUG-PRO-SM-3.jpg" alt="" /></a>
-<a href="{{ site.url }}/assets/images/2022/09/25/IMAUG-PRO-LG-4.jpg"><img src="{{ site.url }}/assets/images/2022/09/25/IMAUG-PRO-SM-4.jpg" alt="" /></a>
-</figure>
+If you haven’t seen this project, I encourage you to click on this link <a href="https://youtu.be/xtz6G6zSMxo" title="Happy Playgrounds" target="_blank">Happy Playgrounds - YouTube</a> <a href="https://youtu.be/xtz6G6zSMxo" title="Happy Playgrounds" target="_blank"><em class="fa fa-youtube-play" aria-hidden="true"></em>
+</a> and watch the drone video. There are two playground areas, a north and south, and they mimic one another. What a blessing it is for the children to be able to play and socialize with so many options and levels of challenge. I have even been told that the teachers and staff have been “caught” riding the Zip Line. Who says play has any age limitation??!!
 
-#### Splits
-
-| IMAUG              | 1.2 Mile Swim | T1   | 56 Mile Bike   | T2   | 13.1 Mile Run | Total   |
-|:-------------------|:-------------:|:----:|:--------------:|:----:|:-------------:|--------:|
-| Goal Times         | 35:00         | 5:00 | 2:35:00        | 5:00 | 2:00:00       | 5:20:00 |
-|=====
-| Actual Times       | 30:28         | 4:57 | 2:42:45        | 3:43 | 2:20:02       | 5:41:53 |
-
-
-[blue]: /ironman-70-3-virginia-blue-ridge-2022-race-report/
+Until the next blog, stay happy!

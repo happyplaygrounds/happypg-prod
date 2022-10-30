@@ -43,11 +43,11 @@
 <div class="container">
   <div class="d-flex flex-row justify-content-center">
 
-      <div class="p-2">
+      <div class="p-2 mt-2">
         <img src="https://happypg-prod.s3.amazonaws.com/coupon.png" width="100px" height="100px">
       </div>
 
-      <div class="p-2">
+      <div class="p-2 mt-2">
         <h4>View PLAYWORLD's second half of 2022 sale items <a href="https://happypg-prod.s3.amazonaws.com/Happy_2022_2H_Promo.pdf">here</a></h4>
         <h3>Made in the USA</h3>
       </div>
@@ -56,9 +56,8 @@
 </div>
 
 
-<h1>{{ page.url }} {{ site.url }}</h1>
-<!-- Interested Block -->
-{% if page.url != "/contact.html" %}
+<!-- Interested Block if statement is not working can't access page variables -->
+{% if _contact != "Contact" %}
    <div class="interested-block wide">
          <h1>Interested?</h1>
 	 <a href="/contact" class="btn btn-primary active" role="button" aria-pressed="true">Contact Us Now</a>
