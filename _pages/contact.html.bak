@@ -6,10 +6,14 @@ permalink: /contact/
 
 <!DOCTYPE html>
 <html lang="en-US">
+
 <div class="container">
+
+<section class="contact-us-section">
   <div class="row">         
-    <div class="col-md-6">
-      <h2>Get In Touch</h2>
+    <div class="col-md-6 contact-us-section-left">
+      <h2 class="contact-us-header">Get In Touch</h2>
+  
       <div class="responsive-embed">  
         <iframe                
           width="450"          
@@ -19,6 +23,7 @@ permalink: /contact/
           src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBN9Fw1TsA7wjqQCR9EwNT3wiOzR3wYdJU&q=Tulsa+OK" allowfullscreen>
         </iframe>
       </div>
+          
       <div>
 	<p><i class="fa fa-map-marker" aria-hidden="true"></i> -  8601 South Oxford Avenue Tulsa, Oklahoma</p>
 	<p><i class="fa fa-phone" aria-hidden="true"></i> - 918.851.9518</p>         
@@ -32,7 +37,8 @@ permalink: /contact/
    </ul></p>
       </div>
     </div>
-        <div class="col-md-6">
+        
+        <div class="col-md-6 contact-us-section-right">
 	<h2>Email Us</h2>
 		<form>
   			<div class="form-group">
@@ -69,6 +75,8 @@ permalink: /contact/
          });
 	</script>
        </div>
+</section>
+</div>  
 </div>
 
 
