@@ -451,3 +451,18 @@ section {padding:0rem;}
 #one li            { float:left }
 #two li            { display:inline }
 #three li          { display:inline-block }
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+/* It means on screens that are  640px or less, set logo image width 50% and margin and padding auto means on center.*/
+
+@media screen and (max-width: 640px){
+.site-logo img {
+width:50% !important;
+}
+}
