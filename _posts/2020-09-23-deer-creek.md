@@ -5,7 +5,7 @@ date: 2020-09-23T14:16:11-04:00
 modified:
 description: "Deer Creek, Edmond - An another awesome playground"     # For Twitter, not the Title
 categories:
-    - "School"
+    - Schools
 tags:
     - Playground
     - Shelter

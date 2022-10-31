@@ -277,7 +277,7 @@ $marketing-site-three-up-width: 1200px;
     align-self: stretch;
     background: #ECECEC;
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: flex-start;
 
