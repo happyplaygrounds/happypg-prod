@@ -8,8 +8,8 @@ categories:
 tags:
     - Playground
 header:
-    image: /assets/images/hp_logo2.png            # Twitter (use 'overlay_image')
-    overlay_image: /assets/images/hp_logo2.png    # Article header at 2048x768
+    image: /assets/images/k-d.jpg            # Twitter (use 'overlay_image')
+    overlay_image: /assets/images/k-d.jpg    # Article header at 2048x768
     overlay_filter: 0.15
     teaser:  /assets/images/logo_v1.png # Shrink image to 575x216
     caption: "Happy Playgrounds, LLC"
