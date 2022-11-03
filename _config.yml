@@ -16,7 +16,7 @@ title_separator          : "-"
 subtitle                 : ""
 name                     : &name "Happy Playgrounds, LLC" # &name is a YAML anchor which can be *referenced later
 description              : &description "Happy Playgrounds, LLC is Oklahoma and Arkansas's Playworld Agency for  commercial playground equipment"
-url                      : "https://www.happyplaygrouns.com"  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://www.happyplaygrounds.com"  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "happyplaygrounds/happypg-prod"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
