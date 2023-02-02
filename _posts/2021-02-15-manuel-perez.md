@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Manuel Perez Perez Park"
+title: "Manuel Perez Park"
 date: 2021-02-15T14:16:11-04:00
 modified:
 description: "Manuel Perez Park, Oklahoma City - An another awesome playground"     # For Twitter, not the Title
