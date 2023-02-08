@@ -5,7 +5,7 @@ date: 2021-09-23T14:16:11-04:00
 modified:
 description: "PlayCubes by Playworld - Incredible fun playground features"     # For Twitter, not the Title
 categories:
-    - "Playground Structures"
+    - "Playworld"
 tags:
     - Playground
 header:

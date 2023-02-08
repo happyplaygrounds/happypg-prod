@@ -5,6 +5,7 @@ date: 2020-07-05T14:16:11-04:00
 modified:
 description: "Happy Birthday"     # For Twitter, not the Title
 categories:
+   - Playworld
 tags:
 header:
     image: /assets/images/jude-beck-2020.jpeg            # Twitter (use 'overlay_image')

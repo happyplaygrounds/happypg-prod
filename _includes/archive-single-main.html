@@ -39,6 +39,7 @@
       {% else %}
         <h3 class="archive__item-title" itemprop="headline"><a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a></h3>
       {% endif %}
+      {% include page__meta.html type=include.type %}
     <!-- {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %} -->
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html }}[&nbsp;<a href="{{ post.url | relative_url }}">Read&nbsp;More...</a>&nbsp;]</p>{% endif %}
   </article>

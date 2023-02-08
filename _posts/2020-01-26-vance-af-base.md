@@ -5,7 +5,7 @@ date: 2020-01-26T14:16:11-04:00
 modified:
 description: "Vance Air Force Base - Happy Playgrounds"     # For Twitter, not the Title
 categories:
-    - "Playground Structures"
+    - "US Military Bases"
 tags:
     - Playground
 header:

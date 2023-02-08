@@ -8,9 +8,7 @@ categories:
     - Schools
 tags:
     - Playground
-    - Shelter
     - Surfacing
-    - Poured in Place
 header:
     image: /assets/images/deer-creek1.jpeg            # Twitter (use 'overlay_image')
     overlay_image: /assets/images/deer-creek1.jpeg    # Article header at 2048x768

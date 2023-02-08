@@ -5,11 +5,11 @@ date: 2021-02-15T14:16:11-04:00
 modified:
 description: "Manuel Perez Park, Oklahoma City - An another awesome playground"     # For Twitter, not the Title
 categories:
-    - "Parks"
+    - Park
 tags:
     - Playground
-    -  Shelter
-    -  Surfacing
+    - Shelter
+    - Surfacing
 header:
     image: /assets/images/manuel-perez1.jpg            # Twitter (use 'overlay_image')
     overlay_image: /assets/images/manuel-perez1.jpg    # Article header at 2048x768

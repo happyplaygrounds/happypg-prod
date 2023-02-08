@@ -3,9 +3,9 @@ layout: single
 title: "Abiding Harvest Methodist Church"
 date: 2022-05-19T14:16:11-04:00
 modified:
-description: "Abiding Harvest Church - An another awesome playground"     # For Twitter, not the Title
+description: "Abiding Harvest Church - Another awesome playground"     # For Twitter, not the Title
 categories:
-    - "Church"
+    - Church
 tags:
     - Playground
     - Sale structure
