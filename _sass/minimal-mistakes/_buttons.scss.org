@@ -50,10 +50,10 @@
       @if ($buttoncolor == light-outline) {
         border: 1px solid #fff;
       }
-     /* Facebook share button was tranparent
-       &:visited {
+
+      &:visited {
         @include yiq-contrasted($color);
-      } */
+      }
 
       &:hover {
         @include yiq-contrasted(mix(#000, $color, 20%));
