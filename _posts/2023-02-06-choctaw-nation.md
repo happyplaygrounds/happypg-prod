@@ -13,7 +13,7 @@ header:
     image: /assets/images/durant-1.jpg            # Twitter (use 'overlay_image')
     overlay_image: /assets/images/durant-1.jpg    # Article header at 2048x768
     overlay_filter: 0.15
-    teaser: /assets/images/durant-1.jpg   # Shrink image to 575x216
+    teaser: /assets/images/durant-1.jpg   # Shrink image to 575x216 push
     caption: "Happy Playgrounds, LLC"
 ---
 
