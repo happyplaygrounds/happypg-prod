@@ -44,7 +44,7 @@ I had everything scheduled, ready to ship at the appropriate times. It was March
 <figcaption class="text-center" style="font-size: large">Playworld Factory<br> Lewisburg, PA</figcaption><br />
 </figure>
 
-[Playworld] suffered a fire in their fluid bed lines. The FBL is where we dip and coat our decks for all the playgrounds, and it is housed not too far away from the shipping docks. Thankfully, no one was hurt, and the fire was contained to this area, but losing the FBLs and our shipping docks was a huge setback. It caused a delay of about a month for me. Not good. Losing a month when the project was already behind schedule created a great deal of anxiety, not only for me, but for the General Contractor as well. Who, by the way, was [Manhattan Construction Company] [manhattan]. You know, that lil’ ol’ construction company based out of [Tulsa,OK] [tulsa]…… LOL
+[Playworld] suffered a fire in their fluid bed lines. The FBL is where we dip and coat our decks for all the playgrounds, and it is housed not too far away from the shipping docks. Thankfully, no one was hurt, and the fire was contained to this area, but losing the FBLs and our shipping docks was a huge setback. It caused a delay of about a month for me. Not good. Losing a month when the project was already behind schedule created a great deal of anxiety, not only for me, but for the General Contractor as well. Who, by the way, was [Manhattan Construction Company] [manhattan]. You know, that lil’ ol’ construction company based out of [Tulsa, OK] [tulsa]…… LOL
 
 I wish my dad were alive so he could hear me say this: Being raised by a career Marine made me
 understand and appreciate “order” and “orders”. My Dad, born and raised in New York, was your typical
