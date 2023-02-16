@@ -57,7 +57,7 @@ So, you might be wondering how this has anything to do with my project. LOL. …
 this, you know exactly how this little story will tie into our project!
 
 In the end, we did finish on time. My crew members Leo, Carlos, Fernando, John, and Richard were
-incredible. We all pulled together and completed the project. I hope you enjoy the [video]!
+incredible. We all pulled together and completed the project.
 
 "Building Communities One Playground at a Time”
 
