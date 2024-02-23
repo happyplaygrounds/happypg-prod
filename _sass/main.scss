@@ -121,9 +121,9 @@ hr.hrClass {
 
 // class that spaces blocks vertically - will be built into Foundation 6.4
 .gallery-item {
-    width:  350px;
-    height: 350px;
-    margin-bottom: 75;
+    width:  450px;
+    height: 450px;
+    margin-bottom: 10px;
     object-fit: cover;
 }
 
@@ -421,6 +421,8 @@ body{
 }
 
 .img-fit {
+	float: left;
+	display:flex;
         object-fit: cover;
 }
 

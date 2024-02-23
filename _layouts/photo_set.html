@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+{% assign num = page.photos.size %}
+
+  <div class="container-full">
+	  <div class="text-center">
+	  	<h1>{{ page.title }}</h1>
+	  	<h2>{{ page.grabber }}</h2>
+	  </div>
+  {% for i in (1..num) %}
+        {% assign remainder = forloop.index | modulo: 2 %}
+  	{% if remainder == 1 %}
+	{% assign rvalue = i | plus: 1 %}
+	<div class="row justify-content-center">
+	<div class="col img-fit">
+        <img src="https://d29f0iknz8av0q.cloudfront.net/{{ page.photos.set }}/{{ page.photos.set }}-{{ i }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}">
+	</div>
+	<div class="col img-fit">
+        <img src="https://d29f0iknz8av0q.cloudfront.net/{{ page.photos.set }}/{{ page.photos.set }}-{{ rvalue }}.jpg" alt="Photo {{ i }} from {{ page.photos.set | capitalize }}">
+	</div>
+	</div>
+	{% else %}
+	   {% continue %}
+	{% endif %}
+  {% endfor %}
+   </div>
+<div>
+  <a href="{{ site.baseurl }}/gallery/">View Happy Image Gallery</a>
+</div>

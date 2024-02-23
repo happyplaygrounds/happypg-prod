@@ -1,0 +1,49 @@
+---
+title: "Image Gallery"
+layout: home
+permalink: /image-gallery/
+---
+<style>
+    .image-gallery {overflow: auto; margin-left: -1%!important;}
+    .image-gallery li {float: left; display: block; margin: 0 0 1% 1%; width: 19%;}
+    .image-gallery li a {text-align: center; text-decoration: none!important; color: #777;}
+    .image-gallery li a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
+    .image-gallery li a img {width: 100%; display: block;}
+</style>
+
+
+<div class="image-gallery">
+{% for file in site.static_files %}
+      {% assign fdis = file %}
+      {% comment %}
+<div>{{ file.name }}</div>
+<div>{{ file.path }}</div>
+      {% endcomment %}
+  {% if file.path contains 'galleryimages' %}
+    {% if file.extname == '.jpg' or
+      file.extname == '.jpeg' or
+      file.extname == '.JPG' or
+      file.extname == '.JPEG' %}
+      <div>GOT IN BIG</div>
+
+      {% assign filenameparts = file.path | split: "/" %}
+      {% assign filename = filenameparts | last | replace: file.extname,"" %}
+      {% comment %}
+      {% assign folder = "youth-camp" %}
+      {% assign number = 3 %}
+      {% endcomment %}
+
+      <a href="{{ file.path }}" title="{{ filename }}">
+        <img src="//wsrv.nl/?url=wsrv.nl/{{ file.path }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ filename }}" />
+	<h3>topsy</h3>
+	{% for i in (1..number) %}
+		<img src="https://d29f0iknz8av0q.cloudfront.net/{{ folder }}/ast-youth-{{ i }}.jpeg" />
+	{% endfor %}
+
+	<h3>bottom</h3>
+	<span>{{ filename }}.{{ file.extname }}</span>
+      </a>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+</div>
