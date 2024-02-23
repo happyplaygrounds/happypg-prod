@@ -7,5 +7,5 @@ description: "An example photo gallery."
 
 photos:
     set: ast-after-schoolcare
-    size: 16
+    size: 14
 ---
