@@ -1,7 +1,7 @@
 ---
 layout: photo_set
-title: Maryetta Public Schools
-grabber: Maryetta Public Schools
+title: Maryetta, OK
+grabber: A Family Affair
 permalink: /maryetta-schools2/
 description: "An example photo gallery."
 
