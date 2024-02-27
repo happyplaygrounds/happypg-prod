@@ -103,17 +103,17 @@ author:
   bio              : "\"*Building* *Communities* *One* *Playground* *at* *a* *Time.*\""
   location         : "Tulsa, OK"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: "Formerly Twitter"
+      icon: "fa-brands fa-x-twitter fa-2x"
       url: "https://twitter.com/playworldplay"
     - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
+      icon: "fa-brands fa-facebook fa-2x"
       url: "https://facebook.com/happyplaygrounds"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
+      icon: "fa-brands fa-linkedin fa-2x "
       url: "https://linkedin.com/company/happyplaygrounds"
     - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      icon: "fa-brands fa-instagram fa-2x"
       url: "https://instagram.com/happyplaygrounds/hl=en"
 
 
