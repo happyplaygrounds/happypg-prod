@@ -103,7 +103,7 @@ author:
   bio              : "\"*Building* *Communities* *One* *Playground* *at* *a* *Time.*\""
   location         : "Tulsa, OK"
   links:
-    - label: "Formerly Twitter"
+    - label: "(Formerly Twitter)"
       icon: "fa-brands fa-x-twitter fa-2x"
       url: "https://twitter.com/playworldplay"
     - label: "Facebook"
