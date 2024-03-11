@@ -24,7 +24,7 @@ An outstanding property, like [Jenks Riverwalk] [JW], deserves a world class pla
 <figure class="align-right"><a href="/assets/images/2024/jenks-riverwalk/riverwalk-8-lg.jpg"><img src="/assets/images/2024/jenks-riverwalk/riverwalk-8-sm.jpg" alt="" /></a>
 </figure>
 
-The 4,000+ sq. ft. playground, running adjacent the [Tulsa Riverparks Trail System] [TR], underneath Marble Slab & Great American Cookies and [Andolini’s Pizzeria] [AP], will feature [Playworld] [PW]'s Mighty Descent slide, the largest rotomolded slide in the world, an Eagles Nest play area, and Muscogee Nation culturally significant design elements such as canoes, clan animals, and more.
+The 4,000+ sq. ft. playground, running adjacent to the [Tulsa Riverparks Trail System] [TR], underneath Marble Slab & Great American Cookies and [Andolini’s Pizzeria] [AP], will feature [Playworld] [PW]'s Mighty Descent slide, the largest rotomolded slide in the world, an Eagles Nest play area, and Muscogee Nation culturally significant design elements such as canoes, clan animals, and more.
 
 <figure class="align-center"><a href="/assets/images/2024/jenks-riverwalk/riverwalk-4.jpg"><img src="/assets/images/2024/jenks-riverwalk/riverwalk-4.jpg" alt="" /></a>
 <figcaption class="text-center" style="font-size: large">Site Preparation and Planning</figcaption><br />
