@@ -22,7 +22,7 @@ Our Happy Labor of Love
 We affectionately refer to our project with The Center for Individuals with Physical Challenges as *"Our Labor of Love"*.
 
 <figure class="align-center"><a href="/assets/images/2024/center-for-individuals/center-17.jpg"><img src="/assets/images/2024/center-for-individuals/center-17.jpg" alt="" /></a>
-<figcaption class="text-center" style="font-size: large">Tulsa City Council funding helped meet financial goals. Thank you, Karen Keith!</figcaption><br />
+<figcaption class="text-center" style="font-size: large">Tulsa County ARPA funding helped meet financial goals. Thank you, Karen Keith!</figcaption><br />
 </figure>
 
 <figure class="align-center"><a href="/assets/images/2024/center-for-individuals/center-13.jpg"><img src="/assets/images/2024/center-for-individuals/center-13.jpg" alt="" /></a>
