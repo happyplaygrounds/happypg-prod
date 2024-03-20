@@ -1,11 +1,10 @@
 ---
 layout: single
-title: "The Center for Individuals with Physical Challenges"
+title: "THE COMMON GOOD"
 modified:
-description: "The Center for Individuals with Physical Challenges"     # For Twitter, not the Title
+description: "THE COMMON GOOD"     # For Twitter, not the Title
 categories:
-    - Inclusive
-    - Accessible
+    - Community Center
 tags:
     - Playground
 header:
