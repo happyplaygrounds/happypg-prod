@@ -51,7 +51,7 @@ THE COMMON GOOD is following through with their [mission statement] [CG] with th
 <img src="https://d29f0iknz8av0q.cloudfront.net/the-common-good2/the-common-good-kids.webp" alt="" /></a>
 </figure>
 
-These kiddos now have a playground to enjoy for spring break and after school care.
+These kiddos now have a playground to enjoy year-round.
 
 <figure class="align-right">
 <a href="https://d29f0iknz8av0q.cloudfront.net/the-common-good2/the-common-good-fence-lg.jpg">
