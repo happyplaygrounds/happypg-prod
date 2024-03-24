@@ -15,6 +15,8 @@ header:
     caption: ""
 ---
 
+Test
+
 You might be wondering why Happy Playgrounds would use an image of a shipping container to start our blog about the incredible playground we installed at [THE COMMON GOOD] [CG]; well we will get back to that. But first one of the unexpected blessings we have experienced since the inception of our company are the captivating stories we hear from our clients. Playgrounds and good people go hand in hand!
 
 <figure class="align-right"><img src="https://d29f0iknz8av0q.cloudfront.net/the-common-good2/the-common-good-logo.webp" alt="" />
