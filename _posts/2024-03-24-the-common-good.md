@@ -59,13 +59,13 @@ These kiddos now have a playground to enjoy year-round.
 </figure>
 Not only did THE COMMON GOOD invest in a playground for the community but they installed fencing around the playground to improve safety and security. Unfortunately, our installers were greeted with this image of vandalism to the new fence. <i class="fa-regular fa-thumbs-down"></i>When we reported it to THE COMMON GOOD administrator, she was moved to tears. These are the everyday challenges THE COMMON GOOD team faces and confidently work through.
 
-Back to the shipping container. The shipping container is a Hydroponics pod that provides fresh vegetables like lettuce and kale for the community.
+Back to the shipping container. The shipping container is a Hydroponics Pod that provides fresh vegetables like lettuce and kale for the community.
 
 <figure class="align-right">
 <img src="https://d29f0iknz8av0q.cloudfront.net/the-common-good2/hydro-1.jpg" alt="" />
 </figure>
 
-Stephen provided a tour of the Hydroponics pod that is on the COMMON GOOD property, right behind the new playground. We were quite impressed. Some of the benefits of hydroponic farming include: 
+Stephen provided a tour of the Hydroponics pod that is on THE COMMON GOOD property, right behind the new playground. We were quite impressed. Some of the benefits of hydroponic farming include: 
 
 
 <div>
