@@ -2,7 +2,7 @@
 layout: single
 title: "THE COMMON GOOD"
 modified:
-description: "THE COMMON GOOD"     # For Twitter, not the Title
+description: "Building Communities One Playground at a Time"     # For Twitter, not the Title
 categories:
     - Community Center
 tags:
