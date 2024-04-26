@@ -9,9 +9,9 @@ tags:
     - Playground
 header:
     image: https://d29f0iknz8av0q.cloudfront.net/the-common-good2/the-common-good-1.jpg # Twitter (use 'overlay_image')
-    overlay_image: https://d29f0iknz8av0q.cloudfront.net/the-common-good2/the-common-good2-10.jpg    # Article header at 2048x768
+    overlay_image: https://d29f0iknz8av0q.cloudfront.net/the-common-good2/the-common-good2-10a.jpg    # Article header at 2048x768
     overlay_filter: 0.15
-    teaser: https://d29f0iknz8av0q.cloudfront.net/the-common-good2/the-common-good2-10.jpg   # Shrink image to 575x216 push
+    teaser: https://d29f0iknz8av0q.cloudfront.net/the-common-good2/the-common-good2-10a.jpg   # Shrink image to 575x216 push
     caption: ""
 ---
 
