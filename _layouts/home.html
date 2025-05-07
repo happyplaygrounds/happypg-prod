@@ -39,6 +39,37 @@
 
     {% include scripts.html %}
     <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <script>
+  // Set background image dynamically from data attribute
+  document.querySelectorAll('.parallax-bg').forEach(section => {
+    const bg = section.getAttribute('data-bg');
+    if (bg) {
+      section.style.backgroundImage = `url(${bg})`;
+    }
+  });
+
+  	var rellax = new Rellax('.rellax');
+	AOS.init({ duration: 1000, once: true });
+
+const logos = document.querySelectorAll('.vendor-logo');
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    } else {
+      entry.target.classList.remove('visible'); // Allow re-trigger
+    }
+  });
+}, { threshold: 0.3 });
+
+logos.forEach(logo => observer.observe(logo));
+
+  </script>
+
 
   </body>
 </html>

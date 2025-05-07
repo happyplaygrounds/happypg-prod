@@ -330,3 +330,115 @@ $marketing-site-three-up-width: 1200px;
     object-fit: cover;
 }
 
+// Parallax
+
+.parallax {
+  background-image: url("/assets/images/cre8play-scroll.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+  position: relative;
+}
+
+.parallax-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+// Rellax
+
+.parallax-section {
+  position: relative;
+  background-attachment: fixed;
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.rellax {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.3); /* Optional overlay */
+}
+
+.parallax-bg {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.parallax-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+//.parallax-bg {
+  //position: relative;
+  //min-height: 100vh;
+  //background-attachment: fixed; /* Key for W3Schools-style background */
+  //background-position: center;
+  //background-repeat: no-repeat;
+  //background-size: contain;
+  //overflow: hidden;
+//}
+
+//.parallax-cont {
+  //position: absolute;
+  //top: 50%;
+  //left: 50%;
+  //text-align: center;
+  //color: white;
+  //font-size: 1rem;
+  //padding: 2rem;
+  //background: transparent; /* Optional overlay */
+  //max-width: 900px;
+  //#background: rgba(0, 0, 0, 0.3); /* Optional overlay */
+//}
+
+.rellax.parallax-cont {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 90%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.vendor-logo img {
+  opacity: 0;
+  transform: scale(0.8) rotate(-10deg);
+  transition: transform 0.6s ease, opacity 0.6s ease;
+  will-change: transform, opacity;
+}
+
+.vendor-logo.visible img {
+  opacity: 1;
+  transform: scale(1.1) rotate(0deg);
+}
+
