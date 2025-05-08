@@ -442,3 +442,33 @@ $marketing-site-three-up-width: 1200px;
   transform: scale(1.1) rotate(0deg);
 }
 
+
+  .brands-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .brand img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .brand:hover {
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 768px) {
+    .brands-container {
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+  }
