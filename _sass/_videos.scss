@@ -442,6 +442,7 @@ $marketing-site-three-up-width: 1200px;
   transform: scale(1.1) rotate(0deg);
 }
 
+  /* Added below from chatgpt to make icons scale on mobile and look better on larger screen */
 
   .brands-container {
     display: grid;
@@ -472,3 +473,48 @@ $marketing-site-three-up-width: 1200px;
       grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     }
   }
+
+  /* Added below from chatgpt to make social work on mobile */
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.social-icons ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  margin: 0 5px;
+}
+
+.social-icons a i {
+  font-size: 1.25rem; /* scale this up or down as needed */
+  color: #333;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover i {
+  color: #007bff;
+  transform: scale(1.1);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .social-icons {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .social-icons a i {
+    font-size: 1rem;
+  }
+}
+
