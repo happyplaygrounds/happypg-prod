@@ -102,6 +102,10 @@ author:
   avatar           : "/assets/images/kelli.png"
   bio              : "\"*Building* *Communities* *One* *Playground* *at* *a* *Time.*\""
   location         : "Tulsa, OK"
+#  facebook         : "testface"
+#  twitter          : "testtwit"
+#  linkedin         : "testlinked"
+#  instagram        : "testinsta"
   links:
     - label: "(Formerly Twitter)"
       icon: "fa-brands fa-x-twitter fa-2x"
