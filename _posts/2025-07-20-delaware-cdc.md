@@ -56,8 +56,8 @@ Each section was designed to promote sensory exploration, gross motor developmen
 By regrading and redesigning the space, the team created gentle, accessible play areas that are both stimulating and secure.
 
 <figure class="align-center">
-<a href="https://d29f0iknz8av0q.cloudfront.net/delaware-cdc/blog-play2-1.jpg">
-<img src="https://d29f0iknz8av0q.cloudfront.net/delaware-cdc/blog-play2-1.jpg" alt="" /></a>
+<a href="https://d29f0iknz8av0q.cloudfront.net/delaware-cdc/lady-bug.jpg">
+<img src="https://d29f0iknz8av0q.cloudfront.net/delaware-cdc/lady-bug.jpg" alt="" /></a>
 {% comment %}
 <figcaption class="text-center" style="font-size: large">Before and After Images</figcaption><br />
 {% endcomment %}
