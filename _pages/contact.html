@@ -36,94 +36,118 @@ permalink: /contact/
     </div>
         
         <div class="col-md-6">
-	<h2>Email Us</h2>
-		<form>
-  			<div class="form-group">
-  			<label for="name">Name:</label>
-  			<input name="name" type="text"/>
-  		</div>
-  		<div class="form-group">
-  			<label for="email">Email:</label>
-  			<input name="email" type="email" required /><br/><br/>
-        		<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  		</div>
-  		<div class="form-group">
-         		<label for="phone">Phone:</label>
-  			<input name="phone" type="phone"/><br/><br/>
-  		</div>
-  		<div class="form-group">
-  			<label for="name">Message:</label>
-  			<textarea name="message" required></textarea>
-  		</div>
-		<input type="hidden" name="recaptcha" id="recaptcha">
-  		<button type="submit" class="btn btn-primary">Submit</button>
-  		<div>
-    		<p id="result-text"></p>
-  	        </div>
-		</form>
-	<script src="https://www.google.com/recaptcha/api.js?render=6LcJCVscAAAAAI8N3u9Pk1C7RlKg0n04CIXkxyek"></script>
-	<script>
-	grecaptcha.ready(function() {
-          grecaptcha.execute('6LcJCVscAAAAAI8N3u9Pk1C7RlKg0n04CIXkxyek', {action: 'submit'}).then(function(token) {
-            if (token) {
-		document.getElementById('recaptcha').value = token;
-		   }
-            });
-         });
-	</script>
-       </div>
-</div>  
-</div>
+		<h2>Email Us</h2>
+<form id="contact" method="POST" novalidate>
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input name="name" id="name" type="text" required />
+  </div>
 
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input name="email" id="email" type="email" required />
+    <small id="emailHelp" class="form-text text-muted">
+      We'll never share your email with anyone else.
+    </small>
+  </div>
 
- <script type="text/javascript">
-	const form = document.querySelector("form");
-	form.addEventListener("submit", (event) => {
+  <div class="form-group">
+    <label for="phone">Phone:</label>
+    <input name="phone" id="phone" type="tel" />
+  </div>
 
-  	// prevent the form submit from refreshing the page
-  	event.preventDefault();
+  <div class="form-group">
+    <label for="message">Message:</label>
+    <textarea name="message" id="message" rows="6" required></textarea>
+  </div>
 
-  	const { name, email,phone, message, recaptcha } = event.target;
+  <!-- Honeypot (hidden off-screen, not display:none) -->
+  <div class="hp" aria-hidden="true">
+    <label for="company">Company</label>
+    <input type="text" id="company" name="company" tabindex="-1" autocomplete="off" />
+  </div>
 
-	// Use your API endpoint URL you copied from the previous step
-	const endpoint = 'https://1z3ri7ni2f.execute-api.us-east-1.amazonaws.com/default/lambda_SES';
+  <!-- Timestamp trap (set at load) -->
+  <input type="hidden" name="form_started_at" id="form_started_at" value="">
 
-	// We use JSON.stringify here so the data can be sent as a string via HTTP
-	const body = JSON.stringify({
-    	senderName: name.value,
-    	senderEmail: email.value,
-    	senderPhone: phone.value,
-    	message: message.value,
-    	captcha: recaptcha.value
-  	});
+  <!-- reCAPTCHA v3 token lives here (filled right before submit) -->
+  <input type="hidden" name="recaptcha" id="recaptcha" />
 
-      console.log('body ', body); // 👉️ 200
+  <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
 
-  	const requestOptions = {
-    	method: "POST",
-    	body
-  	};
+  <div><p id="result-text" role="status" aria-live="polite"></p></div>
+</form>
 
-     fetch(endpoint, requestOptions)
-     .then(response => {
-       if (response.status == 200) {
-         document.getElementById("result-text").innerText =
-        "Email sent successfully!";
-       }
-       else {
-         document.getElementById("result-text").innerText =
-        "An email error occurred. Please call or email us directly from the information in our website footer";
-      }
-      setTimeout(function () {
-   		window.location.href = "/thank-you"; //will redirect to your blog page (an ex: blog.html)
-                 }, 4000); //will call the function after 2 secs.
-      console.log('response.status: ', response.status); // 👉️ 200
-      console.log(response);
-    })
-    .catch(err => {
-      console.log(err);
+<style>
+  .hp{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden;}
+</style>
+
+<!-- reCAPTCHA v3 (use your site key) -->
+<script src="https://www.google.com/recaptcha/api.js?render=6LcJCVscAAAAAI8N3u9Pk1C7RlKg0n04CIXkxyek" async defer></script>
+
+<script>
+  // set timestamp once when the page loads
+  window.addEventListener('DOMContentLoaded', function(){
+    document.getElementById('form_started_at').value = Date.now().toString();
+  });
+
+  const endpoint = 'https://1z3ri7ni2f.execute-api.us-east-1.amazonaws.com/default/lambda_SES';
+  const siteKey = '6LcJCVscAAAAAI8N3u9Pk1C7RlKg0n04CIXkxyek'; // v3 site key
+
+  const form = document.getElementById('contact');
+  const resultText = document.getElementById('result-text');
+  const submitBtn = document.getElementById('submitBtn');
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+
+    // Basic client checks
+    if (!form.checkValidity()) {
+      resultText.textContent = 'Please fill out the required fields.';
+      return;
+    }
+
+    submitBtn.disabled = true;
+    resultText.textContent = 'Sending…';
+
+    // Get a FRESH v3 token *at submit time*
+    grecaptcha.ready(function() {
+      grecaptcha.execute(siteKey, { action: 'contact_submit' }).then(function(token) {
+        document.getElementById('recaptcha').value = token;
+
+        const body = JSON.stringify({
+          senderName: form.name.value.trim(),
+          senderEmail: form.email.value.trim(),
+          senderPhone: form.phone.value.trim(),
+          message: form.message.value.trim(),
+          captcha: token,
+          // add traps too (server will check)
+          company: document.getElementById('company').value || '',
+          form_started_at: document.getElementById('form_started_at').value
+        });
+
+        fetch(endpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body
+        })
+        .then(async (res) => {
+          const text = await res.text();
+          if (res.ok) {
+            resultText.textContent = 'Email sent successfully!';
+            // redirect only on success
+            setTimeout(() => { window.location.href = '/thank-you'; }, 2000);
+          } else {
+            resultText.textContent = 'An error occurred. Please call or email us from the footer.';
+          }
+        })
+        .catch(() => {
+          resultText.textContent = 'Network error. Please try again later.';
+        })
+        .finally(() => {
+          submitBtn.disabled = false;
+        });
+      });
     });
-});
-  </script>
-</html>
-
+  });
+</script>
