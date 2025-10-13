@@ -1,0 +1,11 @@
+
+# Preflight
+curl -i -X OPTIONS "https://<api-id>.execute-api.<region>.amazonaws.com/image/lambda_SES" \
+  -H "Origin: https://happyplaygrounds.com" \
+  -H "Access-Control-Request-Method: POST" \
+  -H "Access-Control-Request-Headers: Content-Type"
+
+# POST (should include CORS headers too)
+curl -i -X POST "https://<api-id>.execute-api.<region>.amazonaws.com/image/lambda_SES" \
+  -H "Content-Type: application/json" \
+  --data '{"senderName":"T","senderEmail":"t@e.com","message":"hello 1234567890","captcha":"DUMMY","company":"","form_started_at":"1731196800000"}'
