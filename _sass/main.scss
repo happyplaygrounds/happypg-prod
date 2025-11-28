@@ -471,3 +471,9 @@ section {padding:0rem;}
 width: 50% !important;
 }
 }
+
+
+a:visited {
+  color: inherit;   /* keeps visited links same as normal */
+}
+
