@@ -4,7 +4,7 @@ title: "Rogers First Church of the Nazarene"
 modified:
 description: "Building Communities One Playground at a Time"     # For Twitter, not the Title
 categories:
-    - Parks
+    - Church
 tags:
     - Playground
 header:
